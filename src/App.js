@@ -4,7 +4,7 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Foo from './Foo';
 
@@ -12,7 +12,10 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Route exact path="/" component={Foo}/>
+        <div>
+          <Route exact path="/" component={Foo}/>
+          <Route exact path="/activities/:id" component={Foo}/>
+        </div>
       </Router>
     );
   }
