@@ -12,6 +12,7 @@ class Foo extends Component {
   render() {
     return (
       <div className="activity">
+        <h2 className="mainTitle">snerdFluxKit</h2>
         { examplePs.map((p) => {
           let rotation = Math.floor(Math.random() * 4),
               indent = Math.floor(Math.random() * 50)

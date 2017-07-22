@@ -1,4 +1,11 @@
 
+.mainTitle {
+  transform: rotate(90deg);
+  transform-origin: -80px 30px;
+  margin-left: -80px;
+  font-size: 48px;
+}
+
 .activity {
   max-width: 400px;
   margin: 0 auto;
