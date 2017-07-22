@@ -13,17 +13,17 @@ class Foo extends Component {
     return (
       <div className="activity">
         <h2 className="mainTitle">snerdFluxKit</h2>
-        { examplePs.map((p) => {
+        { examplePs.map((p, i) => {
           let rotation = Math.floor(Math.random() * 4),
               indent = Math.floor(Math.random() * 50)
 
-          if (Math.round(Math.random()) == 0) {
+          if (Math.round(Math.random()) === 0) {
             rotation = rotation * -1
           }
-          if (Math.round(Math.random()) == 0) {
+          if (Math.round(Math.random()) === 0) {
             indent = indent * -1
           }
-          return <p className="special" style={ { transform: `rotate(${rotation}deg)`, marginLeft: `${indent}px` } }><span>{p}</span></p>
+          return <p className="special" key={ `p${i}`} style={ { transform: `rotate(${rotation}deg)`, marginLeft: `${indent}px` } }><span>{p}</span></p>
         }) }
         <UGC sheetCol="4" />
       </div>
