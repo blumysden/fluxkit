@@ -1,0 +1,58 @@
+.deck {
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide header .special {
+  font-size: 30px;
+  margin: 0;
+}
+
+.main-fig img,
+.main-fig figcaption {
+  max-height: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+/* positioning */
+
+.slide header.layer {
+  top: 5%;
+}
+
+.main-fig,
+.main-content {
+  top: 10%;
+  height: 90%;
+}
+
+.has-content .main-fig {
+  height: 70%;
+  top: 30%;
+}
+
+.has-img .main-content {
+  height: 20%;
+}

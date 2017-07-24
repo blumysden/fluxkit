@@ -7,6 +7,7 @@ import {
 // import logo from './logo.svg';
 import './App.css';
 import Foo from './Foo';
+import Deck from './Deck';
 
 class App extends Component {
   render() {
@@ -15,6 +16,8 @@ class App extends Component {
         <div>
           <Route exact path="/" component={Foo}/>
           <Route exact path="/activities/:id" component={Foo}/>
+          <Route exact path="/deck" component={Deck}/>
+          <Route exact path="/deck/:slide" component={Deck}/>
         </div>
       </Router>
     );
