@@ -96,6 +96,13 @@ This is a bunch of stuff
 It could run to several lines, I guess.
 :end
 
+-------------------------------------------
+slide: =>
+
+hed: something
+
+ugc: 2
+
 []
 
 

@@ -5,6 +5,7 @@ import './Deck.css';
 import archieml from 'archieml'
 import marked from 'marked'
 import deckContent from './deck-aml'
+import UGC from './ugc'
 
 const SLIDES = archieml.load(deckContent).slides
 
@@ -83,9 +84,9 @@ class Deck extends Component {
     }
 
 
-    let { hed, img, caption, content } = data;
+    let { hed, img, caption, content, ugc } = data;
 
-    ['hed', 'img', 'caption', 'content'].forEach((attr) => {
+    ['hed', 'img', 'caption', 'content', 'ugc'].forEach((attr) => {
       if (data[attr]) {
         classNames.push(`has-${attr}`)
       }
@@ -98,6 +99,8 @@ class Deck extends Component {
             <header className="layer">
               <p className="special"><span>{hed}</span></p>
             </header> : null }
+          { ugc ?
+            <UGC sheetCol={ ugc } /> : null }
           { content ?
             <div className="main-content layer">
               <div className="content-inner" dangerouslySetInnerHTML={ { __html: marked(content) } } />
