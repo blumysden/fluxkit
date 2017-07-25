@@ -14,7 +14,7 @@ class Deck extends Component {
     super(props)
     this.handleKeys = this.handleKeys.bind(this)
     this.state = {
-      slide: 1
+      slide: null
     }
   }
 
@@ -63,8 +63,7 @@ class Deck extends Component {
 
   render() {
     let { slide } = this.props.match.params
-    console.log(slide, this.state.slide, slide);
-    if (this.state.slide !== parseInt(slide)) {
+    if (this.state.slide && this.state.slide !== parseInt(slide)) {
       return <Redirect push to={ `/deck/${this.state.slide}` } />
     }
 
@@ -92,7 +91,7 @@ class Deck extends Component {
             </header> : null }
           { content ?
             <div className="main-content layer">
-              <div dangerouslySetInnerHTML={ { __html: marked(content) } } />
+              <div className="content-inner" dangerouslySetInnerHTML={ { __html: marked(content) } } />
             </div>
             :null }
           { img ?
