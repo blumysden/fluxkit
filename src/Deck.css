@@ -46,6 +46,8 @@
 .main-content {
   top: 10%;
   height: 90%;
+  font-family: monospace;
+  font-size: 18px;
 }
 
 .has-content .main-fig {
