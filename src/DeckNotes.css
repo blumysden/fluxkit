@@ -15,3 +15,7 @@
 .slide-notes {
   margin-bottom: 4em;
 }
+
+.slide-notes p {
+  line-height: 1.4em;
+}

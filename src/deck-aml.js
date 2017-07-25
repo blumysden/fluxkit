@@ -42,17 +42,17 @@ content:
 :end
 
 notes:
+**SCOTT**<br/>
 
-**SCOTT**: No best practices here.
+One project I lead at the Times is called "Adventure", and it's a tool for creating interactive articles.
 
-One project I lead at the Times is called "Adventure", and it's a tool for building interactive articles.
+Many of those interactive articles are really just quizzes.  Some are quiz-like.  Some are more like Choose Your Own Adventures, and some are other things.
 
-Many of those interactive articles are really just quizzes.  Some are quiz like.  Some are more like Choose Your Own Adventures.
+My absolute favorite question from the people who use the tool, our Adventure-creators, is "I'm working on a piece about *x* and was wondering: could you do something like *y*?"
 
-Some of our users are developers, some aren't but have some tech skills, some are just journalists and editors in the newsroom.
+And one of my main goals in building the tool is to be able to say "Why, yes!" as often as possible.
 
-But one of my main goals for Adventure is that it should be
-
+Now, just because you **could** do something, does that mean it's a good idea?
 
 :end
 
@@ -64,10 +64,11 @@ caption: Yves Klein, “Le Saut dans le Vide” (the Leap into the Void), 1960
 
 notes:
 
-**SCOTT**: Just because you could do something, does that make it a good idea?
+**SCOTT**
 
-Well, obviously not.
+Well, no, obviously not.
 
+But in my experience, it's not always as bad an idea as it might seem at first.  And I think if you're willing to entertain the bad idea for a while...let it sit down on the sofa, offer it a beer or something stronger, really get to know it better... sometimes it blossoms into a much better idea.
 :end
 
 -------------------------------------------

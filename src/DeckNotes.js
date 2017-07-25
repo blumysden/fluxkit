@@ -7,6 +7,8 @@ import deckContent from './deck-aml'
 
 const SLIDES = archieml.load(deckContent).slides
 
+console.log(SLIDES);
+
 class DeckNotes extends Component {
 
   constructor(props) {
