@@ -1,0 +1,17 @@
+.deck-notes {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  font-size: 16px;
+  font-family: arial;
+  margin: 20px auto;
+}
+
+.deck-notes header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.slide-notes {
+  margin-bottom: 4em;
+}

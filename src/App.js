@@ -8,6 +8,7 @@ import {
 import './App.css';
 import Foo from './Foo';
 import Deck from './Deck';
+import DeckNotes from './DeckNotes';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Route exact path="/" component={Foo}/>
           <Route exact path="/activities/:id" component={Foo}/>
           <Route exact path="/deck" component={Deck}/>
+          <Route exact path="/deck/notes" component={DeckNotes}/>
           <Route exact path="/deck/:slide" component={Deck}/>
         </div>
       </Router>

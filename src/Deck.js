@@ -51,6 +51,9 @@ class Deck extends Component {
   componentDidMount() {
     document.addEventListener('keydown', this.handleKeys)
     this.resize()
+    if (!this.state.slide) {
+      this.setState({ slide: this.getSlideNumber() })
+    }
   }
 
   componentDidUpdate() {
@@ -61,9 +64,14 @@ class Deck extends Component {
     document.removeEventListener('keydown', this.handleKeys)
   }
 
-  render() {
+  getSlideNumber() {
     let { slide } = this.props.match.params
-    if (this.state.slide && this.state.slide !== parseInt(slide)) {
+    return slide ? parseInt(slide, 10) : null
+  }
+
+  render() {
+    let slide = this.getSlideNumber()
+    if (this.state.slide && this.state.slide !== slide) {
       return <Redirect push to={ `/deck/${this.state.slide}` } />
     }
 
@@ -75,13 +83,14 @@ class Deck extends Component {
     }
 
 
-    let { hed, img, caption, content } = data
-    if (img) {
-      classNames.push('has-img')
-    }
-    if (content) {
-      classNames.push('has-content')
-    }
+    let { hed, img, caption, content } = data;
+
+    ['hed', 'img', 'caption', 'content'].forEach((attr) => {
+      if (data[attr]) {
+        classNames.push(`has-${attr}`)
+      }
+    })
+
     return (
       <div className="deck" ref={ (el) => this.deck = el }>
         <div className={ classNames.join(' ') }>
