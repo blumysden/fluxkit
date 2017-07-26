@@ -53,17 +53,20 @@
 }
 
 .has-content header,
+.has-ugc header,
 .has-img header {
   height: 10vh;
 }
 
 .has-content header .special,
+.has-ugc header .special,
 .has-img header .special {
   font-size: 30px;
 }
 
 .main-fig,
 .main-content,
+.ucg-content,
 .fig-inner {
   top: 5%;
   height: 90vh;
@@ -73,6 +76,7 @@
 
 .has-hed .main-fig,
 .has-hed .main-content,
+.has-hed .ugc-content,
 .has-hed .fig-inner {
   top: 10%;
   height: 85vh;
@@ -84,7 +88,11 @@
 }
 
 .main-content {
-  font-size: 48px;
+  font-size: 40px;
+}
+
+.main-content p {
+  margin: 0 auto 0.5em;
 }
 
 .main-fig img {

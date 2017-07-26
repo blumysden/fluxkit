@@ -100,7 +100,9 @@ class Deck extends Component {
               <p className="special"><span>{hed}</span></p>
             </header> : null }
           { ugc ?
-            <UGC sheetCol={ ugc } /> : null }
+            <div className="ugc-content layer">
+              <UGC sheetCol={ ugc } />
+            </div> : null }
           { content ?
             <div className="main-content layer">
               <div className="content-inner" dangerouslySetInnerHTML={ { __html: marked(content) } } />

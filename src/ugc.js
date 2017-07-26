@@ -14,21 +14,19 @@ class UGC extends Component {
   }
 
   updateContent() {
-    let { sheetCol } = this.props,
-        onComplete = (results) => {
-          let responses = results.data.slice(1).map((row) => {
-                return row[sheetCol]
-              }),
-              updater = window.setTimeout(this.updateContent, 3000)
-          this.setState({ responses, updater })
-        }
-
+    let { sheetCol } = this.props
+    window.clearTimeout(this.state.updater)
     $.ajax({
-      url: 'https://crossorigin.me/https://docs.google.com/spreadsheets/d/1HjoRA-DvEPZ6Cqg6UuadT5FAF0bVPK_zC5GHdG2KG6w/pub?gid=1880008187&single=true&output=csv',
-      dataType: 'text',
+      url: 'https://us-central1-blumysden-171515.cloudfunctions.net/fluxUgcProxy',
+      dataType: 'json',
       type: 'GET',
       success: (results) => {
-        onComplete(Papa.parse(results))
+        let responses = results.slice(1).map((row) => {
+              return row[sheetCol]
+            }),
+            updater = window.setTimeout(this.updateContent, 10000)
+
+        this.setState({ responses, updater })
       }
     })
   }
@@ -36,7 +34,12 @@ class UGC extends Component {
   componentDidMount() {
     let { sheetCol } = this.props
     this.updateContent()
+  }
 
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps.sheetCol !== this.props.sheetCol) {
+      this.updateContent();
+    }
   }
 
   componentWillUnmount() {

@@ -99,7 +99,14 @@ It could run to several lines, I guess.
 -------------------------------------------
 slide: =>
 
-hed: something
+hed: UGC 1
+
+ugc: 1
+
+-------------------------------------------
+slide: =>
+
+hed: UGC 2
 
 ugc: 2
 
