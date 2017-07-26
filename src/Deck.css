@@ -77,7 +77,9 @@
 .has-content header,
 .has-ugc header,
 .has-img header {
-  height: 15vh;
+  /*height: 15vh;*/
+  height: auto;
+  margin-top: 20px;
 }
 
 .has-content header .special,

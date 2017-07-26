@@ -147,15 +147,27 @@ TO ESTABLISH ~~ARTIST~~ **MAKER** S ~~NON~~PROFESSIONAL, NONPARASITIC, NONELITE 
 -------------------------------------------
 slide: =>
 
-hed: What are we doing here?
+hed: Asyncronous, Displaced Interactive Journalism
+
+content:
+From The Times:
+
+Wine School<br/>
+Cooking
+
+:end
+
+
+-------------------------------------------
+slide: =>
+
+hed: Syncronous, Local Interactive Journalism?
 
 img: fingerbox.jpg
 caption: Ay-O's fingerbox
 
-content:
-This is a bunch of stuff
-
-It could run to several lines, I guess.
+notes:
+The delivery medium is also the locus of the experience.
 :end
 
 -------------------------------------------
