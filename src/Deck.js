@@ -84,7 +84,7 @@ class Deck extends Component {
     }
 
 
-    let { hed, img, caption, content, ugc } = data;
+    let { hed, img, caption, content, ugc, timer } = data;
 
     ['hed', 'img', 'caption', 'content', 'ugc'].forEach((attr) => {
       if (data[attr]) {
@@ -116,9 +116,42 @@ class Deck extends Component {
               </div>
             </figure>
             : null }
+          { timer ?
+            <div className="timer">
+              <Timer minutes={ timer } />
+            </div>
+            : null }
         </div>
       </div>
     );
+  }
+}
+
+class Timer extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      min: 0,
+      sec: 0,
+      running: false
+    }
+    this.toggle = this.toggle.bind(this)
+  }
+
+  componentDidMount() {
+    this.setState({ min: this.props.minutes })
+  }
+
+  toggle () {
+
+  }
+
+  render() {
+    let { min, sec } = this.state
+    if (sec < 10) {
+      sec = `0${sec}`
+    }
+    return <div className="special" onClick={ this.toggle }><span>{min}:{sec}</span></div>
   }
 }
 

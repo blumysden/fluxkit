@@ -39,6 +39,16 @@
   font-style: italic;
 }
 
+.slide code {
+  margin: 1em 2em;
+  display: block;
+  font-size: 0.86em;
+}
+
+.slide .blank {
+  visibility: hidden;
+}
+
 
 /* positioning */
 
@@ -49,13 +59,25 @@
 
 .slide header .special {
   font-size: 60px;
-  margin: 0;
+  max-width: 80vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.timer {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.timer .special {
+  font-size: 42px;
 }
 
 .has-content header,
 .has-ugc header,
 .has-img header {
-  height: 10vh;
+  height: 15vh;
 }
 
 .has-content header .special,
@@ -107,8 +129,6 @@
 .has-content .fig-inner {
   max-height: 60vh;
 }
-
-/*.has-hed*/
 
 .has-img .main-content {
   height: 20vh;
