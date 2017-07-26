@@ -30,6 +30,14 @@
   display: block;
 }
 
+.main-content a {
+  color: #000;
+}
+
+.main-content a:hover {
+  text-decoration: none;
+}
+
 .main-fig img {
   max-height: 90%;
 }
@@ -74,6 +82,16 @@
   font-size: 42px;
 }
 
+.slide .slide-notes {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  max-width: 60vw;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
 .has-content header,
 .has-ugc header,
 .has-img header {
@@ -116,7 +134,7 @@
 }
 
 .main-content p {
-  margin: 0 auto 0.5em;
+  margin: 0 auto 1em;
 }
 
 .main-fig img {

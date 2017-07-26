@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types'
 import { Redirect } from 'react-router';
 import $ from 'jquery'
 import './Deck.css';
@@ -84,7 +85,7 @@ class Deck extends Component {
     }
 
 
-    let { hed, img, caption, content, ugc, timer } = data;
+    let { hed, img, caption, content, ugc, timer, notes } = data;
 
     ['hed', 'img', 'caption', 'content', 'ugc'].forEach((attr) => {
       if (data[attr]) {
@@ -121,10 +122,24 @@ class Deck extends Component {
               <Timer minutes={ timer } />
             </div>
             : null }
+          { notes && this.props.withNotes ?
+            <div className="slide-notes">
+              <div className="content-inner" dangerouslySetInnerHTML={ { __html: marked(notes) } } />
+            </div>
+            : null }
+          }
         </div>
       </div>
     );
   }
+}
+
+Deck.propTypes = {
+  withNotes: PropTypes.bool
+}
+
+Deck.defaultProps = {
+  withNotes: true
 }
 
 class Timer extends Component {

@@ -20,13 +20,21 @@ class UGC extends Component {
       url: 'https://us-central1-blumysden-171515.cloudfunctions.net/fluxUgcProxy',
       dataType: 'json',
       type: 'GET',
+      cache: false,
       success: (results) => {
-        let responses = results.slice(1).map((row) => {
-              return row[sheetCol]
-            }),
+        let hasChanged = false
+        let responses = results.slice(1).reduce((memo, row, i) => {
+              let response = row[sheetCol]
+              if (response) {
+                memo.push(row[sheetCol])
+              }
+              return memo
+            }, []),
             updater = window.setTimeout(this.updateContent, 10000)
-
-        this.setState({ responses, updater })
+        hasChanged = responses.find((r, i) => r != this.state.responses[i])
+        if (hasChanged) {
+          this.setState({ responses, updater })
+        }
       }
     })
   }
