@@ -42,32 +42,180 @@ slide: =>
 hed: What is this all about?
 
 content:
-~~should do~~<br/>
-~~should not do~~
 
-**could do**
+I think we interactive-makers are selling ourselves short and we are selling our readers short.
+
 :end
 
 notes:
-**SCOTT**<br/>
 
-Let me tell you where I'm coming from: one project I lead at the Times is called "Adventure", and it's a tool for creating interactive articles.
+Now I work with very smart, and very talented people who I admire enormously, and I think we produce some pretty excellent, innovative work on a regular basis.
 
-Many of those interactive articles are really just quizzes.
+But I still think we habitually limit our creativity.  At The New York Times, at least, I trace this to a few diffferent causes:
 
-Some of the pieces are article-like and quiz-like at the same time.  Some are more like Choose Your Own Adventures, and some are other things.
+* Collectively we have very high journalistic and aesthetic standards.
+* Individually, many of us scorn published work that we think doesn't meet that standard (or doesn't interest us personally)
+* We rarely have the time and people to explore and develop our hunches
+* We often operate under the assumption that our readers are impatient and mostly unwilling to learn and try new things
 
-My absolute favorite question, however, from the people who use the tool, our Adventure-creators, is "I'm working on a piece about *x* and was wondering: could you do something like *y*?"
+Under these circumstances, when one sets out to write a new story, it is safer to peruse the menu of past successes, and shoehorn the content into the most attention-grabbing one, assuming one can get together the right people to make it happen.
 
-And one of my main goals in building the tool is to be able to say "Why, yes, we could!" as often as possible.
+I believe there's a cost to this\:
 
-Now, just because you **could** do something, does that mean it's a good idea?
+* We end up spending a lot of time polishing a few good ideas to a very high sheen at the expense of nourishing new ones.
+* Low morale.  I know I'm not the only one who feels discouraged that we are constantly told we all must INNOVATE but have such a hard time getting momentum behind our own little ideas.
+* Consolidation of power and authority in the hands of those who have the technical ability to deliver on new ideas.  Marginalization of those without, often despite their widsom, experience and institutional knowledge.
+
+Put in terms the Fluxus artits might have used, we have a few enemies to overcome:
 
 :end
 
-We're going to talk about and around the idea of "interactive journalism".  In doing so, we're not concerned with what you should or should not do as creators of interactive journalism.  I don't honestly know, and I personally don't pay much attention when someone else tries to tell me.
+-------------------------------------------
+slide: =>
 
-We're interested in getting you in the habit of thinking deeply about what you **could** do.
+hed: Enemies
+
+content:
+Expertise
+
+Authority
+
+Expense
+
+Fear
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Fluxus
+
+notes:
+
+So, what does this have to do with these "Fluxus artists"?  And who are they anyway?
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Fluxus
+
+content:
+
+1961-1978 (approximately, arguably)
+
+Influenced by Marcel Duchamp (readymades) and John Cage (indeterminacy, happenings), among others
+
+Artists included Yoko Ono, George Maciunus, Allan Kaprow, Nam Jun Paik, Alison Knowles, George Brecht, Josephy Beuys, Ay-O, and Shigeko Kubota, among others.
+
+:end
+
+notes:
+
+A group of artists producing and presenting works together from the early 60s to the late 70s.  They made paintings, sculptures, books, and other objects.  They composed and wrote.  They gave performances and organized events.
+
+One of them, a Lithuanian artist named George Maciunus, considered this stream of work and energy to be a movement and he called it Fluxus.
+
+
+Pronounced George Ma-**choo**-nus
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Fluxus
+
+content:
+
+To purge.  A fluid discharge, esp. an excessive discharge, from the bowels or other part.  A continuous moving on or passing, as of a flowing stream, a stream; copious flow, the setting of the tide towards the shore.  Any substance or mixture, as silicates, limestone and flourite, used to promote fusion, esp. the fusion of metals or minerals.
+
+:end
+
+notes:
+
+from *Fluxus... Tentative Plan for the Contents of the first 7 Issues... (before January 18, 1962)<br/>
+Excerpt.*
+
+:end
+
+-------------------------------------------
+slide: =>
+
+img: fluxbox.jpg
+
+caption: FLUXUS, Fluxkit, 1964-1965
+
+-------------------------------------------
+slide: =>
+
+img: street-theater.jpg
+
+caption: FLUXUS, Street Theater, part of Fluxus Festival at Fauxhall, New York City
+
+
+-------------------------------------------
+slide: =>
+
+img: zen-for-head.jpeg
+
+caption: Nam June Paik, Zen for Head (1961)
+
+-------------------------------------------
+slide: =>
+
+img: piano.jpg
+
+caption: Phillip Corner, Piano Activities (1962)
+
+-------------------------------------------
+slide: =>
+
+img: cut-piece.jpg
+
+caption: Yoko Ono, Cut Piece (1964)
+
+-------------------------------------------
+slide: =>
+
+hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
+
+content: TO ESTABLISH ARTIST S NONPROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, HE MUST DEMONSTRATE OWN DISPENSIBILITY, HE MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, HE MUST DEMONSTRATE THAT ANYTHING CAN SUBSTITUTE ART AND ANYONE CAN DO IT.  THEREFORE THIS SUBSTITUTE ART-AMUSEMENT MUST BE SIMPLE, AMUSING, CONCERNED WITH INSIGNIFICANCES, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.  THE ARTIST DOING ART MEANWHILE, TO JUSTIFY HIS INCOME, MUST DEMONSTRATE THAT ONLY HE CAN DO ART.  ART THEREFORE MUST APPEAR TO BE COMPLEX, INTELLECTUAL, EXCLUSIVE, INDISPENSABLE, INSPIRED.
+
+notes:
+
+Maciunus had a particularly grandiose, socialist-tinged, agenda for the work of these artists.  Over time, he either drove out or alienated many of them.  In any case, few who stayed in the fold seemed to have fully embraced his positions and aspirations.
+
+There's one aspect of it though which particularly interests me, and clearly motivated many of the Fluxus artists:
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
+
+content: <span class="blank">TO ESTABLISH ARTIST S NONPROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, </span>HE MUST DEMONSTRATE OWN DISPENSIBILITY, HE MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, HE MUST DEMONSTRATE THAT ANYTHING CAN SUBSTITUTE ART AND ANYONE CAN DO IT.<span class="blank">  THEREFORE THIS SUBSTITUTE ART-AMUSEMENT MUST BE SIMPLE, AMUSING, CONCERNED WITH INSIGNIFICANCES, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.  THE ARTIST DOING ART MEANWHILE, TO JUSTIFY HIS INCOME, MUST DEMONSTRATE THAT ONLY HE CAN DO ART.  ART THEREFORE MUST APPEAR TO BE COMPLEX, INTELLECTUAL, EXCLUSIVE, INDISPENSABLE, INSPIRED.</span>
+
+notes:
+
+In other words, he and many others wanted to de-emphasize the role (the ego, the skill, the expertise) of the artist, and focus instead on the agency and the experience of the audience.
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Audience > Artist
+
+content:
+
+~~Interactive Journalism~~<br/>
+Participatory Journalism<br/>
+**Second-Person Journalism**
+
+:end
 
 -------------------------------------------
 slide: =>
@@ -77,57 +225,11 @@ caption: Yves Klein, “Le Saut dans le Vide” (the Leap into the Void), 1960
 
 notes:
 
-**SCOTT**
+My proposal for this session is that we really investigate this idea together, and see if we can come up some principles and strategies that will make our work richer and more rewarding, for us and our readers.
 
-Well, no, obviously not.
-
-And we do have debates about whether The New York Times *should* be making quizzes, and these other things.  And how these pieces *should* be designed and written.  And of course those discussions are important, but I think in practice *should* discussions often come WAY too early.  I think most should be preceeded by a long, earnest *could* investigation.
-
-Because in my experience, good ideas rarely arrive in a flash, and many apparently bad ideas are not as bad as they might seem at first.  I believe if you're willing to entertain the bad idea for a while...let it sit down on the sofa, offer it a beer or something stronger, really get to know it better... sometimes it blossoms into a much better idea.
-
-And the other reason to focus on could is that it's much more fun.  Could is the seed of play.
+So let's start with an exercise.
 
 :end
-
--------------------------------------------
-slide: =>
-
-hed: What is this all about?
-
-content:
-Rules of the Game ⊢ Could
-:end
-
-notes:
-
-<a href="https://en.wikipedia.org/wiki/List_of_mathematical_symbols">List_of_mathematical_symbols</a>
-
-Could is meaningless without any limitations.  To get to any meaningful idea of what we could do, we need to agree on some set of things that we definitely ARE doing.  Right?
-
-So we are going to spend some time exploring and trying to agree on a set of parameters for interactive journalism that interest us.
-
-And that *US* leads me to the last point.
-:end
-
--------------------------------------------
-slide: =>
-
-hed: What is this all about?
-
-content: Building a **MOVEMENT**
-
-:end
-
-notes:
-
-Just for now.  Just for today.  Let's start with that.  And we'll see if it gets any traction.
-
-:end
-
--------------------------------------------
-slide: =>
-
-hed: OK.
 
 -------------------------------------------
 slide: =>
@@ -182,11 +284,11 @@ slide: =>
 
 hed: Exercise: Your Favorite Thing
 
-content: Write instructions for anyone to recreate *your* favorite home experience in *their* home.
+content: Write instructions for anyone to have *your* favorite home experience in *their* home.
 
 notes:
 
-Take the time to think this through.  Start with this "anyone".  How different might their home be from yours?  What are the key sensations you absolutely must replciate in order for this to be successful?  What physical, mental, spritual conditions must be conjured?
+Take the time to think this through.  Start with this "anyone". How different might their home be from yours?  What are the key sensations you absolutely must replciate in order for this to be successful?  What physical, mental, spritual conditions must be conjured?
 
 Approach the task with a spirit of generosity.
 
@@ -195,41 +297,30 @@ Approach the task with a spirit of generosity.
 -------------------------------------------
 slide: =>
 
-hed: Write instructions for anyone to recreate your favorite home experience in their home.
+hed: Write instructions for anyone to have your favorite home experience in their home.
 
 ugc: 1
 
-
--------------------------------------------
-slide: =>
-
-hed: What is interactive journalism?
-
 notes:
 
-Let's break it down.
+I think of this exercise as a model for the work of making second person journalism.
 
-We are composing experiences for other people to have.
+We used our own knowledge about something, and our unique personal relationship to it, to design an experience for someone else to inhabit.
+
+I want to talk about this piece and some Fluxus pieces to tease out some of the other qualities that define Second-Person Journalism, in my opinion.
 
 :end
 
+thoughts:
+
+The goal is not to make that person become you, to vanish inside you, but to explore your experience through her or his eyes.
+
+:end
 
 -------------------------------------------
 slide: =>
 
-hed: Instruction Art
-
-content: "Revolve all the light pole lamps in a street facing up"
-
-img: tk
-
-notes:  Instructions may enlist a doer without
-
--------------------------------------------
-
-slide: =>
-
-hed: Instruction Art
+hed: Participatory Art, Fluxus Style
 
 content: CITY PIECE
 
@@ -242,106 +333,128 @@ baby carriage.
 
 :end
 
-notes:  Many instructions seem to foster an internal experience for the doer, as well as an experience for an unwitting audience.
+notes:
+
+Fluxus didn't create the idea of participatory art.  It really appeared in the early 20th century.  But I like what they did with it.
+
+This is City Piece, by Yoko Ono, from her "book of instructions and drawings," Grapefruit.
+
+Obviously, it's related to the pieces we just created.  Instructions.
+
+If you compare this to that piece, some essential aspects emerge.
+
+~~The aritst (what I'm calling the "composer") vanishes even more completely in this example.  So does the "artwork".~~
+
+:end
 
 -------------------------------------------
-
 slide: =>
 
-hed: Exercise: Pick a Number
+hed: Qualities that shape the experience
 
 content:
-Using free will or the code below:
+relative presence or absence of the piece's "composer"
 
-<code>Math.floor(Math.random() * Math.round(number_of_people_here / 5)) + 1</code>
+locus of participation in space and in time
 
-Write it on your wristband.
+integrity of participation to the realization of the piece
 :end
 
 notes:
-To be clear, the number should be between 1 and [number_of_people_here / 5]
+relative presence, absence of the piece's "composer"
+* Yoko Ono vanishes almost completely in City Piece.  What about you?  How present was your voice or your sensibility in your instructions?
+
+locus of audience participation in space and in time
+* In these pieces, the audience does not interact with the composition itself, per se, to participate.  It doesn't matter much which form the instructions came in. Originally they were in a book, but there's not much difference whether you read my transcription on the screen or have someone whisper it in your ear (though instructions for someone to do that could, in themselves, be another piece).  You interact with the idea.  And you interact with that idea when and where you choose.
+
+integrity of participation to the realization of the piece
+* lastly, though you interact with the idea, I don't think this is purely conceptual art.  You could stop at the idea, but is it really complete if you don't walk around with that baby carriage?
+
+So, is there a correlary we can point to in the realm of SECOND-PERSON journalism?
 :end
 
-
 -------------------------------------------
 slide: =>
 
-hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
+hed: Eric Asimov's Wine School
 
-content: TO ESTABLISH ARTIST S NONPROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, HE MUST DEMONSTRATE OWN DISPENSIBILITY, HE MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, HE MUST DEMONSTRATE THAT ANYTHING CAN SUBSTITUTE ART AND ANYONE CAN DO IT.  THEREFORE THIS SUBSTITUTE ART-AMUSEMENT MUST BE SIMPLE, AMUSING, CONCERNED WITH INSIGNIFICANCES, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.  THE ARTIST DOING ART MEANWHILE, TO JUSTIFY HIS INCOME, MUST DEMONSTRATE THAT ONLY HE CAN DO ART.  ART THEREFORE MUST APPEAR TO BE COMPLEX, INTELLECTUAL, EXCLUSIVE, INDISPENSABLE, INSPIRED.
-
--------------------------------------------
-slide: =>
-
-hed: Exercise: Debate the proposition "FLUXMANIFESTO ON FLUXAMUSEMENT is relevant for makers of interactive journalism."
-
-content: Organize yourselves into small groups of people with the same number on their wristbands and await further instructions.
-
-
--------------------------------------------
-slide: =>
-
-hed: Exercise: Debate the proposition "FLUXMANIFESTO ON FLUXAMUSEMENT is relevant for makers of interactive journalism."
-
-content: Debate.  Take issue with and embrace what you will.
-
-TO ESTABLISH ~~ARTIST~~ **MAKER** S ~~NON~~PROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, ~~HE~~ **SHE/HE** MUST DEMONSTRATE OWN DISPENSIBILITY, ~~HE~~ **THEY** MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, ~~HE~~ **WE** MUST DEMONSTRATE THAT <span class="blank">ANYTHING CAN SUBSTITUTE ART</span> AND ANYONE CAN DO IT.  THEREFORE THIS <span class="blank">SUBSTITUTE ART-AMUSEMENT</span> MUST BE *(seem? feel?)* SIMPLE, AMUSING, ~~CONCERNED WITH INSIGNIFICANCES~~ *(no way!!!)*, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.
-
-:end
-
-
--------------------------------------------
-slide: =>
-
-hed: Asyncronous, Displaced Interactive Journalism
-
-content:
-From The Times:
-
-Wine School<br/>
-Cooking
-
-:end
-
-
--------------------------------------------
-slide: =>
-
-hed: Syncronous, Local Interactive Journalism?
-
-img: fingerbox.jpg
-caption: Ay-O's fingerbox
+img: wine-school.png
 
 notes:
-The delivery medium is also the locus of the experience.
+
+For those who aren't familiar, our wine expert Asmiov discusses a type of wine and why he's interested in it.  Then he recommends three wines to drink over the course of the month, and often he suggests how you should drink them, like this from the "Thirst Quenchers" lesson:
+
 :end
 
 -------------------------------------------
 slide: =>
 
-hed:
+hed: Eric Asimov's Wine School
 
 content:
-This is a bunch of stuff
 
-It could run to several lines, I guess.
+"Don’t serve these wines with fancy culinary school experiments. Toss some burgers or sausages on the grill, get a rotisserie chicken, make a sandwich, that sort of thing. Lightly chill the wine before pouring, and glou-glou."
+
 :end
 
+notes:
+
+Then you're supposed to send in your thoughts and come back at the end of the month and read the follow-up with his opinions and those of other reader/drinkers.
+
+But it's just an article, right?  Doesn't really matter much if you even read it carefully.  The author (the composer of the experience) matters a bit because he's a wine expert so you're inclined to go along with his plan for you.
+
+**It's the experience of drinking the wine and reflecting on your own experience drinking it, to the extent that you could write something about it, that matters.**
+
+I think it's very, very cool.
+
 -------------------------------------------
 slide: =>
 
-hed: UGC 1
+hed: MANIFESTO FOR SECOND-PERSON JOURNALISM
 
-ugc: 1
+content:
+
+SECOND-PERSON JOURNALISM
+
+arrives incomplete and invites the audience to participate in its completion<br/>
+does not hold the knowledge or expertise of the "composer" over that of the "audience"<br/>
+derives its energy from the choices it offers<br/>
+inspires the audience to self-reflection and self-discovery<br/>
+directly or indirectly brings the audience into contact with other members of the audience<br/>
+may give the audience and audience of its own
+
+:end
+
 
 -------------------------------------------
 slide: =>
 
-hed: UGC 2
+hed: What can we ask of the audience?
 
-ugc: 2
+content:
 
+Depends on the reward.  But different people go for different rewards.
+
+Show Ono's City Piece and Cut Piece
+
+:end
+
+
+-------------------------------------------
+slide: =>
+
+hed: Exercise: Exchange inspirations
+
+content:
+
+In your small groups, share examples of some work that inspires you.
+
+:end
+
+
+
+
+
+-------------------------------------------
 []
-
-
 `

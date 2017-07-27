@@ -139,7 +139,7 @@ Deck.propTypes = {
 }
 
 Deck.defaultProps = {
-  withNotes: true
+  withNotes: false
 }
 
 class Timer extends Component {

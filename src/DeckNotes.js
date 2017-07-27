@@ -9,10 +9,6 @@ const SLIDES = archieml.load(deckContent).slides
 
 class DeckNotes extends Component {
 
-  constructor(props) {
-    super(props)
-  }
-
   render() {
 
     return (

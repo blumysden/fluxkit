@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Papa from 'papaparse'
 import $ from 'jquery'
 
 class UGC extends Component {
@@ -31,7 +30,7 @@ class UGC extends Component {
               return memo
             }, []),
             updater = window.setTimeout(this.updateContent, 10000)
-        hasChanged = responses.find((r, i) => r != this.state.responses[i])
+        hasChanged = responses.find((r, i) => r !== this.state.responses[i])
         if (hasChanged) {
           this.setState({ responses, updater })
         }
@@ -40,7 +39,6 @@ class UGC extends Component {
   }
 
   componentDidMount() {
-    let { sheetCol } = this.props
     this.updateContent()
   }
 
