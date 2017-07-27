@@ -85,10 +85,14 @@ class Deck extends Component {
     }
 
 
-    let { hed, img, caption, content, ugc, timer, notes } = data;
+    let { hed, img, vid, caption, content, ugc, timer, notes } = data;
 
-    ['hed', 'img', 'caption', 'content', 'ugc'].forEach((attr) => {
+    ['hed', 'img', 'caption', 'content', 'ugc', 'vid'].forEach((attr) => {
       if (data[attr]) {
+        // dumb:
+        if (attr === 'vid') {
+          attr = 'img'
+        }
         classNames.push(`has-${attr}`)
       }
     })
@@ -109,10 +113,13 @@ class Deck extends Component {
               <div className="content-inner" dangerouslySetInnerHTML={ { __html: marked(content) } } />
             </div>
             :null }
-          { img ?
+          { (img || vid) ?
             <figure className="main-fig layer">
               <div className="fig-inner">
-                <img src={ `/deck/images/${img}` } />
+                { img ?
+                  <img src={ `/deck/images/${img}` } /> :
+                  <iframe width="560" height="315" src={ `https://www.youtube.com/embed/${vid}` } frameborder="0" allowfullscreen></iframe>
+                }
                 { caption ? <figcaption>{ caption }</figcaption> : null }
               </div>
             </figure>
@@ -127,7 +134,6 @@ class Deck extends Component {
               <div className="content-inner" dangerouslySetInnerHTML={ { __html: marked(notes) } } />
             </div>
             : null }
-          }
         </div>
       </div>
     );

@@ -410,6 +410,33 @@ I think it's very, very cool.
 -------------------------------------------
 slide: =>
 
+hed: Participatory Art, Fluxus Style, Part 2
+
+content: CUT PIECE
+
+“Cut Piece First version for single performer: Performer sits on stage with a pair of scissors in front of him. It is announced that members of the audience may come on stage—one at a time—to cut a small piece of the performer’s clothing to take with them. Performer remains motionless throughout the piece. Piece ends at the performer’s option.”
+
+*Yoko Ono, 1964*
+
+:end
+
+notes:
+
+Premiered in 1964 and she has performed it multiple times since.
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Cut Piece
+
+vid: pTGSsWVK2Eo
+
+
+-------------------------------------------
+slide: =>
+
 hed: MANIFESTO FOR SECOND-PERSON JOURNALISM
 
 content:
