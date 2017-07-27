@@ -36,3 +36,7 @@ I want them to know:
   -
 
 *
+
+
+
+Could we do a samson-like challenge, where the number of people who represent themselves as red vs. blue on the page has an effect?

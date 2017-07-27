@@ -58,15 +58,16 @@ But I still think we habitually limit our creativity.  At The New York Times, at
 * We rarely have the time and people to explore and develop our hunches
 * We often operate under the assumption that our readers are impatient and mostly unwilling to learn and try new things
 
-Under these circumstances, when one sets out to write a new story, it is safer to peruse the menu of past successes, and shoehorn the content into the most attention-grabbing one, assuming one can get together the right people to make it happen.
+Under these circumstances, when we set out to write a new story, it is safer to peruse the menu of past successes, and shoehorn the content into the most attention-grabbing one, assuming we can get together the right people to make it happen.
 
 I believe there's a cost to this\:
 
 * We end up spending a lot of time polishing a few good ideas to a very high sheen at the expense of nourishing new ones.
 * Low morale.  I know I'm not the only one who feels discouraged that we are constantly told we all must INNOVATE but have such a hard time getting momentum behind our own little ideas.
 * Consolidation of power and authority in the hands of those who have the technical ability to deliver on new ideas.  Marginalization of those without, often despite their widsom, experience and institutional knowledge.
+* Narrower, less transformative experiences for our readers.
 
-Put in terms the Fluxus artits might have used, we have a few enemies to overcome:
+Put in terms the Fluxus artits might have used, I think we have a few enemies to overcome:
 
 :end
 
@@ -85,6 +86,14 @@ Expense
 Fear
 :end
 
+notes:
+
+Now, Fluxus didn't defeat these enemies.  One could argue they failed pretty grandly.
+
+I don't honestly imagine I can overcome them either.  But I believe, collectively, we can begin to gnaw away at these obstacles if we want to, and I think Fluxus' example is a good one to consider.
+
+:end
+
 -------------------------------------------
 slide: =>
 
@@ -92,7 +101,7 @@ hed: Fluxus
 
 notes:
 
-So, what does this have to do with these "Fluxus artists"?  And who are they anyway?
+So, what is "Fluxus" anyway?
 
 :end
 
@@ -176,6 +185,7 @@ img: cut-piece.jpg
 
 caption: Yoko Ono, Cut Piece (1964)
 
+
 -------------------------------------------
 slide: =>
 
@@ -184,6 +194,8 @@ hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
 content: TO ESTABLISH ARTIST S NONPROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, HE MUST DEMONSTRATE OWN DISPENSIBILITY, HE MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, HE MUST DEMONSTRATE THAT ANYTHING CAN SUBSTITUTE ART AND ANYONE CAN DO IT.  THEREFORE THIS SUBSTITUTE ART-AMUSEMENT MUST BE SIMPLE, AMUSING, CONCERNED WITH INSIGNIFICANCES, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.  THE ARTIST DOING ART MEANWHILE, TO JUSTIFY HIS INCOME, MUST DEMONSTRATE THAT ONLY HE CAN DO ART.  ART THEREFORE MUST APPEAR TO BE COMPLEX, INTELLECTUAL, EXCLUSIVE, INDISPENSABLE, INSPIRED.
 
 notes:
+
+This is part of one of Maciunus's manifestos for Fluxus. (He created several.)
 
 Maciunus had a particularly grandiose, socialist-tinged, agenda for the work of these artists.  Over time, he either drove out or alienated many of them.  In any case, few who stayed in the fold seemed to have fully embraced his positions and aspirations.
 
@@ -433,6 +445,143 @@ hed: Cut Piece
 
 vid: pTGSsWVK2Eo
 
+-------------------------------------------
+slide: =>
+
+hed: Qualities that shape the experience
+
+content:
+presence of the composer
+
+integrity of participation to the realization of the piece
+
+locus of participation is here and now
+
+challenge/risk
+
+:end
+
+notes:
+presence of the composer is essential
+* I suppose it could be someone other than the composer in that role.  the point, though, is that there is another actual person there with whom the audience engages.  What of herself Yoko Ono brings to this piece, as a presence, as a person, is an interesting question.  It seems to me that she both appears and disappears at the same time.
+
+risk
+* for the composer AND for the participant. The action is charged in many ways, plays on all kinds of taboos.  And it's done in public, in front of other people. Everyone has to choose just how they will participate or whether they will participate at all.
+* for me, this one gets at the heart of the question "What do we dare to ask of the audience?"  And in asking, what does each participant ask herself?
+* If you agree with me that this is a risky proposition to make to an audience, ask yourself why she could do it and we are maybe less willing to?
+
+Analogy in the world of SECOND-PERSON journalism?
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Live Chat
+
+content:
+
+<a href="https://www.nytimes.com/interactive/2016/07/12/us/how-to-talk-to-your-kids-about-violence-and-race.html">Talking to Children About Race, Policing and Violence</a>
+
+:end
+
+notes:
+Meets all of the criteria, I'd say, even risk since the topic is so personal and scary.  But it makes me ask: do we have any opportunities for live engagement with our people beyond just trading messages?
+:end
+
+
+-------------------------------------------
+slide: =>
+
+hed: Participatory Art, Fluxus Style, Part 3
+
+img: fingerbox.jpg
+caption: Ay-O, Fingerbox. Wood box with offset labels and rubber opening containing unknown object.
+
+notes:
+
+This was where I started with this session, and I think it comes closest to exemplifying what most of us really do.
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Fingerbox
+
+content:
+The hidden contents of the boxes comprise such various things as beads, bristle brushes, hair, cotton balls, nails, and sponges.
+
+The artist's intent, by including things such as nails, which can potentially prick the finger, in the possible contents of the box is to ensure that the user touches the box with an "enquiring, learning gesture". The finger boxes are also intended to be touched by multiple people at a time, promoting a shared, social, experience of perceiving the work.
+
+*<a href="https://en.wikipedia.org/wiki/Ay-O#Finger_boxes">Wikipedia, Ay-O</a>*
+:end
+
+
+-------------------------------------------
+slide: =>
+
+hed: Qualities that shape the experience
+
+content:
+absence of the composer
+
+integrity of participation to the realization of the piece
+
+temporal locus of participation is in the present of the object
+
+physical field of experience is an independent object (or other thing)
+
+:end
+
+notes:
+
+It is a simple object with a surprising invitation.
+
+It is designed to be interacted with in one way, but there are other possibilities of course, and all of those make up the experience.
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: The challenge
+
+content:
+
+What are the limitations and opporunities inherent in this waiting bit of media?
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Exercise: Count the Ways
+
+content:
+
+In small groups, propose some surprising experiences where an internet-connected device is the locus of the experience.
+
+:end
+
+notes:
+
+examples maybe
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: In small groups, propose some surprising experiences where an internet-connected device is the locus of the experience.
+
+ugc: 2
+
+notes:
+
+examples maybe
+
+:end
 
 -------------------------------------------
 slide: =>
@@ -477,8 +626,6 @@ content:
 In your small groups, share examples of some work that inspires you.
 
 :end
-
-
 
 
 
