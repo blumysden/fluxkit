@@ -124,6 +124,11 @@
   height: 85vh;
 }
 
+.ugc-content .ugc {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
 .main-fig,
 .fig-inner {
   font-size: 18px;

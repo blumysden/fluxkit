@@ -6,9 +6,11 @@ class UGC extends Component {
   constructor(props) {
     super(props)
     this.updateContent = this.updateContent.bind(this)
+    this.flipTimer = null
     this.state = {
       responses: [],
-      updater: null
+      updater: null,
+      index: 0
     }
   }
 
@@ -38,14 +40,30 @@ class UGC extends Component {
     })
   }
 
+  runFlipper() {
+    window.clearTimeout(this.flipTimer)
+    let nextIndex = this.state.index + 1
+    if (nextIndex >= this.state.responses.length) {
+      nextIndex = 0;
+    }
+    this.setState({ index: nextIndex })
+    this.flipTimer = window.setTimeout(() => { this.runFlipper() }, 20000)
+  }
+
   componentDidMount() {
     this.updateContent()
+    this.runFlipper()
   }
 
   componentDidUpdate(prevProps, prevState) {
     if (prevProps.sheetCol !== this.props.sheetCol) {
       this.updateContent();
     }
+
+    // console.log(prevState.index, this.state.index);
+    // if (prevState.index != this.state.index) {
+    //   this.flipTimer = window.setTimeout(() => { this.runFlipper() }, 1000)
+    // }
   }
 
   componentWillUnmount() {
@@ -66,9 +84,10 @@ class UGC extends Component {
   }
 
   render() {
+    let { responses, index } = this.state
     return (
-      <div>
-        { this.state.responses.map(this.renderResponse)}
+      <div className="ugc">
+        { this.renderResponse(responses[index], index) }
       </div>
     );
   }
