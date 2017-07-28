@@ -18,7 +18,7 @@ class UGC extends Component {
     let { sheetCol } = this.props
     window.clearTimeout(this.state.updater)
     $.ajax({
-      url: 'https://us-central1-blumysden-171515.cloudfunctions.net/fluxUgcProxy',
+      url: 'https://us-central1-blumysden-171515.cloudfunctions.net/fluxUgcReader',
       dataType: 'json',
       type: 'GET',
       cache: false,
