@@ -15,6 +15,7 @@ class Deck extends Component {
   constructor(props) {
     super(props)
     this.handleKeys = this.handleKeys.bind(this)
+    this.handleClick = this.handleClick.bind(this)
     this.state = {
       slide: null
     }
@@ -50,8 +51,15 @@ class Deck extends Component {
     }
   }
 
+  handleClick(e) {
+    if (e) {
+      this.advance()
+    }
+  }
+
   componentDidMount() {
     document.addEventListener('keydown', this.handleKeys)
+    document.addEventListener('click', this.handleClick)
     this.resize()
     if (!this.state.slide) {
       this.setState({ slide: this.getSlideNumber() })
@@ -64,6 +72,7 @@ class Deck extends Component {
 
   componentWillUnmount() {
     document.removeEventListener('keydown', this.handleKeys)
+    document.removeEventListener('click', this.handleClick)
   }
 
   getSlideNumber() {
