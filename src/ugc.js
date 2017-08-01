@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
+//
+//TODO add a list prop
+
 
 class UGC extends Component {
 
@@ -40,6 +43,8 @@ class UGC extends Component {
     })
   }
 
+
+  // TODO randomize flips
   runFlipper() {
     window.clearTimeout(this.flipTimer)
     let nextIndex = this.state.index + 1

@@ -129,7 +129,7 @@ class Deck extends Component {
               <div className="fig-inner">
                 { img ?
                   <img src={ `/deck/images/${img}` } /> :
-                  <iframe width="560" height="315" src={ `https://www.youtube.com/embed/${vid}` } frameBorder="0" allowFullScreen></iframe>
+                  <iframe src={ `https://www.youtube.com/embed/${vid}` } frameBorder="0" allowFullScreen="true"></iframe>
                 }
                 { caption ? <figcaption>{ caption }</figcaption> : null }
               </div>

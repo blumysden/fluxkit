@@ -272,7 +272,8 @@ slide: =>
 
 hed: Our Workbook
 
-content: https://goo.gl/forms/R3ihlgtnaI5r6MQz1
+
+content: <a href="https://goo.gl/forms/R3ihlgtnaI5r6MQz1" target="_blank">https://tinyurl.com/fluxkit2017</a>
 
 -------------------------------------------
 slide: =>
@@ -292,6 +293,8 @@ slide: =>
 hed: Exercise: Your Favorite Thing
 
 content: Write instructions for anyone to have *your* favorite home experience in *their* home.
+
+timer: 4
 
 notes:
 
@@ -544,7 +547,10 @@ slide: =>
 hed: Exercise: Contrived Experiences
 
 content: Small group discussion about what contrived experiences YOU seek out and what you find rewarding, enticing, exciting about them.
+<br/><a href="https://goo.gl/forms/R3ihlgtnaI5r6MQz1" target="_blank">https://tinyurl.com/fluxkit2017</a>
 
+
+timer: 5
 
 
 -------------------------------------------
@@ -562,6 +568,15 @@ Maciunus had a particularly grandiose, socialist-tinged, agenda for the work of 
 Over time, he either drove out or alienated many of them.  In any case, few who stayed in the fold seemed to have fully embraced his positions and aspirations.
 
 There's one aspect of it though which particularly interests me, and clearly motivated many of the Fluxus artists:
+
+:end
+
+notes:
+
+We've looked at these experiences from both the point of view of composer as well as audience member. 
+
+Now is the time for manifestos, where we express what we believe in, why we're doing any of this in the first place. 
+George Maciunus created many manifestos for the Fluxus movement, and here's 
 
 :end
 
@@ -620,6 +635,21 @@ notes:
 
 
 :end
+
+-------------------------------------------
+
+slide: =>
+
+hed: Exercise: Create Your Manifesto
+
+content:
+
+
+
+:end
+
+timer: 10
+
 
 -------------------------------------------
 slide: =>
@@ -715,10 +745,42 @@ content:
 Write an instruction for your colleagues and peers to
 create a piece of second-person journalism.
 
+<br>
+Submit online
+
+<br>
+Fill out one card.
+
+:end
+
+notes:
+This is an opportunity for you to express what you *really* want to see someone else do in their work.
+
+Leave it open ended enough so that the audience can interepreret freely.
+
 :end
 
 
 -------------------------------------------
+slide: =>
+
+hed: Where do we go from here?
+
+content:
+
+Contact us directly, and we'll work on getting it integrated into the site for you.
+We'll include anything static, however you will be responsible for maintaining backend services.
+
+Follow us on Twitter 
+<br>
+@newsNerdFluxkit
+
+:end
+
+
+-------------------------------------------
+
+
 slide: =>
 
 hed: Write an Instruction (Suggestions)

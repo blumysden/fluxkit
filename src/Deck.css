@@ -30,6 +30,11 @@
   display: block;
 }
 
+.main-fig iframe {
+  width: 50vw !important;
+  height: 28vw;
+}
+
 .main-content a {
   color: #000;
 }
