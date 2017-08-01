@@ -188,7 +188,7 @@ class Timer extends Component {
   toggle (e) {
     e.stopPropagation()
     e.preventDefault()
-    if (this.state.running) {
+    if (this.state.counting) {
       this.pause()
     } else {
       this.countdown()
