@@ -608,17 +608,88 @@ slide: =>
 
 hed: MANIFESTO FOR SECOND-PERSON JOURNALISM
 
-content:
+content: 
 
 SECOND-PERSON JOURNALISM
 
-Think: You, Your, and Yours.
-
+Think - You, Your, and Yours.
 champions empathy and curiousity as a "composer's" lens for production
 considers dimensionality with more senses than sight alone
 form follows function
 remembers the possibility of nonlinear temporality, especially when considering the archive
 responds to new historical contexts and "audience" usage indefinitely
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Participatory Art, Fluxus Style, Part 4
+
+content: 
+
+"It seemed to me that from the viewpoint of nuclear physics 
+you could hardly consider the structure of an atom without 
+feeling that an object is becoming an event and that every 
+event is an object." 
+        - George Brecht
+          Research Chemist and Fluxus Artist
+
+:end 
+
+notes:
+
+In addition to assemblages, environments, concerts, and happenings, Fluxus artists also created
+instructions for artworks in Marcel Duchamp's ready made tradition.
+
+:end
+
+-------------------------------------------
+slide: =>
+
+img: paper_piece.jpg
+caption: Paper Piece by Benjamin Patterson. September 1960. Diazotype.
+
+notes:
+
+In addition to assemblages, environments, concerts, and happenings, Fluxus artists also created
+instructions for artworks in Duchamp's ready made tradition.
+
+Performances: present both the thing itself and that thing as something else
+
+Instructions serve eliminate the artist's taste and style in favor of open ended 
+conception of the work. No two versions of the work are the same, and this 
+serves only to enrich the end result, like musical scores.
+
+:end
+
+-------------------------------------------
+slide: =>
+
+img: water_yam.jpg
+caption: Water Yam by George Brecht. 1963. Cardboard box with offset label, containing 69 offset cards.
+
+notes:
+
+Change - suggests a never-finished form with parts rearrangeable
+
+Artist need not be the only one responsible for creative action
+
+:end
+
+
+-------------------------------------------
+slide: =>
+
+hed: Joan Jonas, Instruction (2002)
+
+content:
+
+dance with a large piece of chalk
+
+mark up the nearest surface and pay attention to the movement of your feet
+
+music optional
 
 :end
 
