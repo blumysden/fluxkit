@@ -698,6 +698,24 @@ music optional
 
 :end
 
+notes:
+
+Curator Hans Ulrich Obrist's book Do It, an ongoing collaboration and exhibition 
+Project began in 1997 - two decades of this work.
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Exercise: Contribute an Instruction
+
+content:
+
+Write an instruction for your colleagues and peers to 
+create a piece of second-person journalism.
+
+:end
+
 
 -------------------------------------------
 slide: =>
