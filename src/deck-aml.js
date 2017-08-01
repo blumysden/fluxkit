@@ -603,6 +603,27 @@ may give the audience and audience of its own
 
 
 -------------------------------------------
+
+slide: =>
+
+hed: MANIFESTO FOR SECOND-PERSON JOURNALISM
+
+content:
+
+SECOND-PERSON JOURNALISM
+
+Think: You, Your, and Yours.
+
+champions empathy and curiousity as a "composer's" lens for production
+considers dimensionality with more senses than sight alone
+form follows function
+remembers the possibility of nonlinear temporality, especially when considering the archive
+responds to new historical contexts and "audience" usage indefinitely
+
+:end
+
+
+-------------------------------------------
 slide: =>
 
 hed: What can we ask of the audience?
