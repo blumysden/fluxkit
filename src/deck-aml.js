@@ -277,7 +277,7 @@ slide: =>
 
 hed: Our Workbook
 
-content: https://tinyurl.com/fluxkit2017
+content: https://goo.gl/forms/R3ihlgtnaI5r6MQz1
 
 -------------------------------------------
 slide: =>
@@ -591,6 +591,11 @@ hed: MANIFESTO FOR SECOND-PERSON JOURNALISM
 content:
 
 SECOND-PERSON JOURNALISM
+
+Composer, remember:<br/>
+Reader can do more than read -- your reader is a SOURCE!<br/>
+Publication is a step in a collaboration.<br/>
+
 
 arrives incomplete and invites the audience to participate in its completion<br/>
 does not hold the knowledge or expertise of the "composer" over that of the "audience"<br/>
