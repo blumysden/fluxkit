@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom'
 // import logo from './logo.svg';
 import './App.css';
-import Foo from './Foo';
+import Activity from './Activity';
 import Deck from './Deck';
 import DeckNotes from './DeckNotes';
 
@@ -14,8 +14,8 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" component={Foo}/>
-          <Route exact path="/activities/:id" component={Foo}/>
+          <Route exact path="/" component={Activity}/>
+          <Route exact path="/manifestos" render={ () => <Activity title="Manifestos" sheetCol={1} />}/>
           <Route exact path="/deck" component={Deck}/>
           <Route exact path="/deck/notes" component={DeckNotes}/>
           <Route exact path="/deck/:slide" component={Deck}/>

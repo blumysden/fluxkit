@@ -1,14 +1,24 @@
-
-.mainTitle {
-  transform: rotate(90deg);
-  transform-origin: -80px 30px;
-  margin-left: -80px;
-  font-size: 48px;
-}
-
 .activity {
   max-width: 400px;
   margin: 0 auto;
+  padding-left: 100px;
+  position: relative;
+}
+
+.mainTitle {
+  transform: rotate(90deg);
+  transform-origin: -54px 13px;
+  top: 0;
+  left: 100px;
+  font-size: 48px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.activityTitle {
+  margin-left: 0;
+  font-size: 36px;
 }
 
 .special {

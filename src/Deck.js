@@ -117,7 +117,7 @@ class Deck extends Component {
             </header> : null }
           { ugc ?
             <div className="ugc-content layer">
-              <UGC sheetCol={ ugc } />
+              <UGC sheetCol={ parseInt(ugc, 10) } />
             </div> : null }
           { content ?
             <div className="main-content layer">
