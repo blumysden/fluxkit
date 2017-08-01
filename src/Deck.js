@@ -172,6 +172,12 @@ class Timer extends Component {
     this.toggle = this.toggle.bind(this)
   }
 
+  componentDidUpdate() {
+    if (this.state.remaining === 0) {
+      this.pause();
+    }
+  }
+
   pause() {
     window.clearInterval(this.interval)
     this.setState({ counting: false })
@@ -196,14 +202,19 @@ class Timer extends Component {
   }
 
   render() {
-    let { remaining } = this.state,
+    let { remaining, counting } = this.state,
         min = Math.floor(remaining / 60),
-        sec = remaining % 60
+        sec = remaining % 60,
+        classNames = ['special', 'timer']
 
     if (sec < 10) {
       sec = `0${sec}`
     }
-    return <div className="special" onClick={ this.toggle }><span>{min}:{sec}</span></div>
+
+    if (!counting) {
+      classNames.push('paused')
+    }
+    return <div className={ classNames.join(' ') } onClick={ this.toggle }><span>{min}:{sec}</span></div>
   }
 }
 
