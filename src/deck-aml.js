@@ -47,7 +47,7 @@ slide: =>
 
 hed: Outcomes
 
-content: 
+content:
 
 - Take a fresh look at 'what we do' as interactive-makers through the lens of the 1960-70's Fluxus art movement
 - Write manifestos that will guide future thinking on interactive production
@@ -145,10 +145,10 @@ Artists included Yoko Ono, George Maciunus, Allan Kaprow, Nam Jun Paik, Alison K
 
 notes:
 
-Fluxus is an internationally distributed and interdisciplinary artist collective that produced and presented works together in the 1960s and 1970s. 
+Fluxus is an internationally distributed and interdisciplinary artist collective that produced and presented works together in the 1960s and 1970s.
 They were radical and experimental in their practice, pushing against the Art World establishment of the time.
 
-Working in both object-based and time-based modes, they made paintings, sculptures, and books. They composed and wrote. 
+Working in both object-based and time-based modes, they made paintings, sculptures, and books. They composed and wrote.
 They gave performances and organized participatory events called happenings. The created immersive environments.
 
 Fluxus was influenced by Marcel Duchamp's readymades, which are ordinary manufactured objects repositioned by the artist as found art,
@@ -165,7 +165,7 @@ slide: =>
 
 img: fluxbox.jpg
 
-caption: FLUXUS, Fluxkit, 1964-1965 
+caption: FLUXUS, Fluxkit, 1964-1965
 
 -------------------------------------------
 slide: =>
@@ -218,9 +218,9 @@ Participatory Journalism<br/>
 
 notes:
 
-By de-emphasizing expertise, technique, the mystique of the artist, the works were simple, absurd, inexpensive. 
+By de-emphasizing expertise, technique, the mystique of the artist, the works were simple, absurd, inexpensive.
 
-The artists and audiences were in cahoots. 
+The artists and audiences were in cahoots.
 
 :end
 
@@ -558,7 +558,7 @@ notes:
 
 This is part of one of Maciunus's manifestos for Fluxus. (He created several.)
 
-Maciunus had a particularly grandiose, socialist-tinged, agenda for the work of these artists. 
+Maciunus had a particularly grandiose, socialist-tinged, agenda for the work of these artists.
 Over time, he either drove out or alienated many of them.  In any case, few who stayed in the fold seemed to have fully embraced his positions and aspirations.
 
 There's one aspect of it though which particularly interests me, and clearly motivated many of the Fluxus artists:
@@ -570,13 +570,7 @@ slide: =>
 
 hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
 
-content: <span class="blank">TO ESTABLISH ARTIST S NONPROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, </span>HE MUST DEMONSTRATE OWN DISPENSIBILITY, HE MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, HE MUST DEMONSTRATE THAT ANYTHING CAN SUBSTITUTE ART AND ANYONE CAN DO IT.<span class="blank">  THEREFORE THIS SUBSTITUTE ART-AMUSEMENT MUST BE SIMPLE, AMUSING, CONCERNED WITH INSIGNIFICANCES, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.  THE ARTIST DOING ART MEANWHILE, TO JUSTIFY HIS INCOME, MUST DEMONSTRATE THAT ONLY HE CAN DO ART.  ART THEREFORE MUST APPEAR TO BE COMPLEX, INTELLECTUAL, EXCLUSIVE, INDISPENSABLE, INSPIRED.</span>
-
-notes:
-
-In other words, he and many others wanted to de-emphasize the role (the ego, the skill, the expertise) of the artist, and focus instead on the agency and the experience of the audience.
-
-:end
+content: TO ESTABLISH ~~ARTIST~~ **MAKER** S ~~NON~~PROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, ~~HE~~ **SHE/HE** MUST DEMONSTRATE OWN DISPENSIBILITY, ~~HE~~ **THEY** MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, ~~HE~~ **WE** MUST DEMONSTRATE THAT <span class=“blank”>ANYTHING CAN SUBSTITUTE ART</span> AND ANYONE CAN DO IT.  THEREFORE THIS <span class=“blank”>SUBSTITUTE ART-AMUSEMENT</span> MUST BE *(seem? feel?)* SIMPLE, AMUSING, ~~CONCERNED WITH INSIGNIFICANCES~~ *(no way!!!)*, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.
 
 -------------------------------------------
 slide: =>
@@ -637,7 +631,7 @@ content:
 "It seemed to me that from the viewpoint of nuclear physics
 you could hardly consider the structure of an atom without
 feeling that an object is becoming an event and that every
-event is an object." 
+event is an object."
 <br/><br/>- George Brecht
 <br/>
 Research Chemist and Fluxus Artist
