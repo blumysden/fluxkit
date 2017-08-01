@@ -45,6 +45,23 @@ We're not here today to talk about best-practices or learn anything very concret
 -------------------------------------------
 slide: =>
 
+hed: Outcomes
+
+content: 
+
+- Take a fresh look at 'what we do' as interactive-makers through the lens of the 1960-70's Fluxus art movement
+- Write manifestos that will guide future thinking on interactive production
+- Instruct each other on how to compose an experience for news audiences
+- Use this workshop and resulting Fluxkit of manifestos and instructions to catalyze a collective
+
+
+:end
+
+
+>>>>>>> Stashed changes
+-------------------------------------------
+slide: =>
+
 hed: What is this all about?
 
 content:
@@ -128,10 +145,16 @@ Artists included Yoko Ono, George Maciunus, Allan Kaprow, Nam Jun Paik, Alison K
 
 notes:
 
-A group of artists producing and presenting works together from the early 60s to the late 70s.  They made paintings, sculptures, books, and other objects.  They composed and wrote.  They gave performances and organized events.
+Fluxus is an internationally distributed and interdisciplinary artist collective that produced and presented works together in the 1960s and 1970s. 
+They were radical and experimental in their practice, pushing against the Art World establishment of the time.
+
+Working in both object-based and time-based modes, they made paintings, sculptures, and books. They composed and wrote. 
+They gave performances and organized participatory events called happenings. The created immersive environments.
+
+Fluxus was influenced by Marcel Duchamp's readymades, which are ordinary manufactured objects repositioned by the artist as found art,
+as well as John Cage's compositions in which some aspects of a musical work are left open to chance or to the interpreter's free choice.
 
 One of them, a Lithuanian artist named George Maciunus, considered this stream of work and energy to be a movement and he called it Fluxus.
-
 
 Pronounced George Ma-**choo**-nus
 
@@ -140,27 +163,9 @@ Pronounced George Ma-**choo**-nus
 -------------------------------------------
 slide: =>
 
-hed: Fluxus
-
-content:
-
-To purge.  A fluid discharge, esp. an excessive discharge, from the bowels or other part.  A continuous moving on or passing, as of a flowing stream, a stream; copious flow, the setting of the tide towards the shore.  Any substance or mixture, as silicates, limestone and flourite, used to promote fusion, esp. the fusion of metals or minerals.
-
-:end
-
-notes:
-
-from *Fluxus... Tentative Plan for the Contents of the first 7 Issues... (before January 18, 1962)<br/>
-Excerpt.*
-
-:end
-
--------------------------------------------
-slide: =>
-
 img: fluxbox.jpg
 
-caption: FLUXUS, Fluxkit, 1964-1965
+caption: FLUXUS, Fluxkit, 1964-1965 
 
 -------------------------------------------
 slide: =>
@@ -187,40 +192,16 @@ caption: Phillip Corner, Piano Activities (1962)
 -------------------------------------------
 slide: =>
 
+hed: Piano Activities (2012)
+
+vid: ThIexgXllyo
+
+-------------------------------------------
+slide: =>
+
 img: cut-piece.jpg
 
 caption: Yoko Ono, Cut Piece (1964)
-
-
--------------------------------------------
-slide: =>
-
-hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
-
-content: TO ESTABLISH ARTIST S NONPROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, HE MUST DEMONSTRATE OWN DISPENSIBILITY, HE MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, HE MUST DEMONSTRATE THAT ANYTHING CAN SUBSTITUTE ART AND ANYONE CAN DO IT.  THEREFORE THIS SUBSTITUTE ART-AMUSEMENT MUST BE SIMPLE, AMUSING, CONCERNED WITH INSIGNIFICANCES, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.  THE ARTIST DOING ART MEANWHILE, TO JUSTIFY HIS INCOME, MUST DEMONSTRATE THAT ONLY HE CAN DO ART.  ART THEREFORE MUST APPEAR TO BE COMPLEX, INTELLECTUAL, EXCLUSIVE, INDISPENSABLE, INSPIRED.
-
-notes:
-
-This is part of one of Maciunus's manifestos for Fluxus. (He created several.)
-
-Maciunus had a particularly grandiose, socialist-tinged, agenda for the work of these artists.  Over time, he either drove out or alienated many of them.  In any case, few who stayed in the fold seemed to have fully embraced his positions and aspirations.
-
-There's one aspect of it though which particularly interests me, and clearly motivated many of the Fluxus artists:
-
-:end
-
--------------------------------------------
-slide: =>
-
-hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
-
-content: <span class="blank">TO ESTABLISH ARTIST S NONPROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, </span>HE MUST DEMONSTRATE OWN DISPENSIBILITY, HE MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, HE MUST DEMONSTRATE THAT ANYTHING CAN SUBSTITUTE ART AND ANYONE CAN DO IT.<span class="blank">  THEREFORE THIS SUBSTITUTE ART-AMUSEMENT MUST BE SIMPLE, AMUSING, CONCERNED WITH INSIGNIFICANCES, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.  THE ARTIST DOING ART MEANWHILE, TO JUSTIFY HIS INCOME, MUST DEMONSTRATE THAT ONLY HE CAN DO ART.  ART THEREFORE MUST APPEAR TO BE COMPLEX, INTELLECTUAL, EXCLUSIVE, INDISPENSABLE, INSPIRED.</span>
-
-notes:
-
-In other words, he and many others wanted to de-emphasize the role (the ego, the skill, the expertise) of the artist, and focus instead on the agency and the experience of the audience.
-
-:end
 
 -------------------------------------------
 slide: =>
@@ -232,6 +213,14 @@ content:
 ~~Interactive Journalism~~<br/>
 Participatory Journalism<br/>
 **Second-Person Journalism**
+
+:end
+
+notes:
+
+By de-emphasizing expertise, technique, the mystique of the artist, the works were simple, absurd, inexpensive. 
+
+The artists and audiences were in cahoots. 
 
 :end
 
@@ -561,6 +550,37 @@ content: Small group discussion about what contrived experiences YOU seek out an
 -------------------------------------------
 slide: =>
 
+hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
+
+content: TO ESTABLISH ARTIST S NONPROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, HE MUST DEMONSTRATE OWN DISPENSIBILITY, HE MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, HE MUST DEMONSTRATE THAT ANYTHING CAN SUBSTITUTE ART AND ANYONE CAN DO IT.  THEREFORE THIS SUBSTITUTE ART-AMUSEMENT MUST BE SIMPLE, AMUSING, CONCERNED WITH INSIGNIFICANCES, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.  THE ARTIST DOING ART MEANWHILE, TO JUSTIFY HIS INCOME, MUST DEMONSTRATE THAT ONLY HE CAN DO ART.  ART THEREFORE MUST APPEAR TO BE COMPLEX, INTELLECTUAL, EXCLUSIVE, INDISPENSABLE, INSPIRED.
+
+notes:
+
+This is part of one of Maciunus's manifestos for Fluxus. (He created several.)
+
+Maciunus had a particularly grandiose, socialist-tinged, agenda for the work of these artists. 
+Over time, he either drove out or alienated many of them.  In any case, few who stayed in the fold seemed to have fully embraced his positions and aspirations.
+
+There's one aspect of it though which particularly interests me, and clearly motivated many of the Fluxus artists:
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
+
+content: <span class="blank">TO ESTABLISH ARTIST S NONPROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, </span>HE MUST DEMONSTRATE OWN DISPENSIBILITY, HE MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, HE MUST DEMONSTRATE THAT ANYTHING CAN SUBSTITUTE ART AND ANYONE CAN DO IT.<span class="blank">  THEREFORE THIS SUBSTITUTE ART-AMUSEMENT MUST BE SIMPLE, AMUSING, CONCERNED WITH INSIGNIFICANCES, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.  THE ARTIST DOING ART MEANWHILE, TO JUSTIFY HIS INCOME, MUST DEMONSTRATE THAT ONLY HE CAN DO ART.  ART THEREFORE MUST APPEAR TO BE COMPLEX, INTELLECTUAL, EXCLUSIVE, INDISPENSABLE, INSPIRED.</span>
+
+notes:
+
+In other words, he and many others wanted to de-emphasize the role (the ego, the skill, the expertise) of the artist, and focus instead on the agency and the experience of the audience.
+
+:end
+
+-------------------------------------------
+slide: =>
+
 hed: MANIFESTO FOR SECOND-PERSON JOURNALISM
 
 content:
@@ -601,6 +621,12 @@ responds to new historical contexts and "audience" usage indefinitely
 
 :end
 
+notes:
+
+
+
+:end
+
 -------------------------------------------
 slide: =>
 
@@ -611,16 +637,17 @@ content:
 "It seemed to me that from the viewpoint of nuclear physics
 you could hardly consider the structure of an atom without
 feeling that an object is becoming an event and that every
-event is an object."
-        - George Brecht
-          Research Chemist and Fluxus Artist
+event is an object." 
+<br/><br/>- George Brecht
+<br/>
+Research Chemist and Fluxus Artist
 
 :end
 
 notes:
 
 In addition to assemblages, environments, concerts, and happenings, Fluxus artists also created
-instructions for artworks in Marcel Duchamp's ready made tradition.
+instructions for artworks in Marcel Duchamp's ready made tradition, blending time-based and space-based art.
 
 :end
 
@@ -650,6 +677,11 @@ img: water_yam.jpg
 caption: Water Yam by George Brecht. 1963. Cardboard box with offset label, containing 69 offset cards.
 
 notes:
+
+Brecht moves away from elaborate scores for Fluxus happenings, engages
+friends and strangers with space for radically different interperetations
+
+engages with outsiders, "audience"
 
 Change - suggests a never-finished form with parts rearrangeable
 
