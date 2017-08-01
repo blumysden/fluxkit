@@ -36,6 +36,12 @@ hed: What is this all about?
 
 content: "inspiration and provocations for people who make interactives"
 
+notes:
+
+We're not here today to talk about best-practices or learn anything very concrete.  We're here for collective inspiration.
+
+:end
+
 -------------------------------------------
 slide: =>
 
@@ -669,7 +675,7 @@ music optional
 
 notes:
 
-Curator Hans Ulrich Obrist's book Do It, an ongoing collaboration and exhibition 
+Curator Hans Ulrich Obrist's book Do It, an ongoing collaboration and exhibition
 Project began in 1997 - two decades of this work.
 :end
 
@@ -680,7 +686,7 @@ hed: Exercise: Contribute an Instruction
 
 content:
 
-Write an instruction for your colleagues and peers to 
+Write an instruction for your colleagues and peers to
 create a piece of second-person journalism.
 
 :end
