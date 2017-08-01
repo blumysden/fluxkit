@@ -277,7 +277,7 @@ slide: =>
 
 hed: Our Workbook
 
-content: https://goo.gl/forms/R3ihlgtnaI5r6MQz1
+content: https://tinyurl.com/fluxkit2017
 
 -------------------------------------------
 slide: =>
