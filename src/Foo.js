@@ -7,7 +7,7 @@ class Foo extends Component {
     return (
       <div className="activity">
         <h2 className="mainTitle">snerdFluxKit</h2>
-        <UGC sheetCol={2} />
+        <UGC sheetCol={1} />
       </div>
     );
   }
