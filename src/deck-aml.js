@@ -542,46 +542,15 @@ It is designed to be interacted with in one way, but there are other possibiliti
 
 :end
 
--------------------------------------------
-slide: =>
-
-hed: The challenge
-
-content:
-
-What are the limitations and opporunities inherent in this waiting bit of media?
-
-:end
 
 -------------------------------------------
 slide: =>
 
-hed: Exercise: Count the Ways
+hed: Exercise: Contrived Experiences
 
-content:
+content: Small group discussion about what contrived experiences YOU seek out and what you find rewarding, enticing, exciting about them.
 
-In small groups, propose some surprising experiences where an internet-connected device is the locus of the experience.
 
-:end
-
-notes:
-
-examples maybe
-
-:end
-
--------------------------------------------
-slide: =>
-
-hed: In small groups, propose some surprising experiences where an internet-connected device is the locus of the experience.
-
-ugc: 2
-
-notes:
-
-examples maybe
-
-:end
 
 -------------------------------------------
 slide: =>
@@ -613,7 +582,7 @@ slide: =>
 
 hed: MANIFESTO FOR SECOND-PERSON JOURNALISM
 
-content: 
+content:
 
 SECOND-PERSON JOURNALISM
 
@@ -631,16 +600,16 @@ slide: =>
 
 hed: Participatory Art, Fluxus Style, Part 4
 
-content: 
+content:
 
-"It seemed to me that from the viewpoint of nuclear physics 
-you could hardly consider the structure of an atom without 
-feeling that an object is becoming an event and that every 
-event is an object." 
+"It seemed to me that from the viewpoint of nuclear physics
+you could hardly consider the structure of an atom without
+feeling that an object is becoming an event and that every
+event is an object."
         - George Brecht
           Research Chemist and Fluxus Artist
 
-:end 
+:end
 
 notes:
 
@@ -662,8 +631,8 @@ instructions for artworks in Duchamp's ready made tradition.
 
 Performances: present both the thing itself and that thing as something else
 
-Instructions serve eliminate the artist's taste and style in favor of open ended 
-conception of the work. No two versions of the work are the same, and this 
+Instructions serve eliminate the artist's taste and style in favor of open ended
+conception of the work. No two versions of the work are the same, and this
 serves only to enrich the end result, like musical scores.
 
 :end
@@ -716,6 +685,48 @@ create a piece of second-person journalism.
 
 :end
 
+
+-------------------------------------------
+slide: =>
+
+hed: Write an Instruction (Suggestions)
+
+content:
+
+Ask yourself:<br/>
+What are the limitations and opporunities inherent in this waiting bit of media?
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Exercise: Count the Ways
+
+content:
+
+In small groups, propose some surprising experiences where an internet-connected device is the locus of the experience.
+
+:end
+
+notes:
+
+examples maybe
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: In small groups, propose some surprising experiences where an internet-connected device is the locus of the experience.
+
+ugc: 2
+
+notes:
+
+examples maybe
+
+:end
 
 -------------------------------------------
 slide: =>
