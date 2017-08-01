@@ -52,9 +52,11 @@ class Deck extends Component {
   }
 
   handleClick(e) {
-    if (e) {
-      this.advance()
-    }
+    // TODO: I think we need to isolate this somehow, because
+    // right now clicking on a link or timer or whatever advances the slide
+    // if (e) {
+    //   this.advance()
+    // }
   }
 
   componentDidMount() {
@@ -163,25 +165,56 @@ class Timer extends Component {
     this.state = {
       min: 0,
       sec: 0,
+      remaining: parseInt(props.minutes) * 60,
       running: false
     }
+    this.interval = null
     this.toggle = this.toggle.bind(this)
   }
 
-  componentDidMount() {
-    this.setState({ min: this.props.minutes })
+  componentDidUpdate() {
+    if (this.state.remaining === 0) {
+      this.pause();
+    }
   }
 
-  toggle () {
+  pause() {
+    window.clearInterval(this.interval)
+    this.setState({ counting: false })
+  }
 
+  countdown() {
+    this.pause()
+    this.setState({ counting: true })
+    this.interval = window.setInterval(() => {
+      this.setState({ remaining: this.state.remaining - 1 })
+    }, 1000)
+  }
+
+  toggle (e) {
+    e.stopPropagation()
+    e.preventDefault()
+    if (this.state.counting) {
+      this.pause()
+    } else {
+      this.countdown()
+    }
   }
 
   render() {
-    let { min, sec } = this.state
+    let { remaining, counting } = this.state,
+        min = Math.floor(remaining / 60),
+        sec = remaining % 60,
+        classNames = ['special', 'timer']
+
     if (sec < 10) {
       sec = `0${sec}`
     }
-    return <div className="special" onClick={ this.toggle }><span>{min}:{sec}</span></div>
+
+    if (!counting) {
+      classNames.push('paused')
+    }
+    return <div className={ classNames.join(' ') } onClick={ this.toggle }><span>{min}:{sec}</span></div>
   }
 }
 
