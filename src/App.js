@@ -36,6 +36,7 @@ class App extends Component {
           <Route exact path="/" component={Activity}/>
           <Route exact path="/manifestos" render={ () => <Activity title="Manifestos" sheetCol={1} />}/>
           <Route exact path="/manifestos/scott" render={ () => <Page title="Manifesto for Second-Person Journalism"><Markdown className="manifesto-scott" content={ SCOTT }/></Page> }/>
+          <Route exact path="/manifestos/britt" render={ () => <Page title="Manifesto for Second-Person Journalism"><Markdown className="manifesto-britt" content={ BRITT }/></Page> }/>
           <Route exact path="/deck" component={Deck}/>
           <Route exact path="/deck/notes" component={DeckNotes}/>
           <Route exact path="/deck/:slide" component={Deck}/>
