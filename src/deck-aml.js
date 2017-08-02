@@ -332,6 +332,35 @@ The goal is not to make that person become you, to vanish inside you, but to exp
 -------------------------------------------
 slide: =>
 
+hed: Some Intersting Variables in Participatory Art
+
+content:
+* Locus of participation in space and in time
+* Presence or absence of the originating artist (our "composer")
+* Existence of an *art*ifact
+* Integrity of participation to the realization of the piece
+* Stakes
+:end
+
+
+-------------------------------------------
+slide: =>
+
+hed: Some Intersting Variables in Participatory Art (revised)
+
+content:
+* Where and when does it happen?
+* With who?
+* Or what?
+* How does it happen?
+* Who cares?
+
+:end
+
+
+-------------------------------------------
+slide: =>
+
 hed: Participatory Art, Fluxus Style
 
 content: CITY PIECE
@@ -362,24 +391,22 @@ If you compare this to that piece, some essential aspects emerge.
 -------------------------------------------
 slide: =>
 
-hed: Qualities that shape the experience
+hed: The variables
 
 content:
-relative presence or absence of the piece's "composer"
+Happens whenever and wherever.
 
-locus of participation in space and in time
+Almost no Yoko.<br/>
+And no art object (unless the book counts).
 
-integrity of participation to the realization of the piece
+And if no one does it?  And if you do?
 :end
 
 notes:
-relative presence, absence of the piece's "composer"
 * Yoko Ono vanishes almost completely in City Piece.  What about you?  How present was your voice or your sensibility in your instructions?
 
-locus of audience participation in space and in time
 * In these pieces, the audience does not interact with the composition itself, per se, to participate.  It doesn't matter much which form the instructions came in. Originally they were in a book, but there's not much difference whether you read my transcription on the screen or have someone whisper it in your ear (though instructions for someone to do that could, in themselves, be another piece).  You interact with the idea.  And you interact with that idea when and where you choose.
 
-integrity of participation to the realization of the piece
 * lastly, though you interact with the idea, I don't think this is purely conceptual art.  You could stop at the idea, but is it really complete if you don't walk around with that baby carriage?
 
 So, is there a correlary we can point to in the realm of SECOND-PERSON journalism?
@@ -451,6 +478,8 @@ slide: =>
 hed: Qualities that shape the experience
 
 content:
+**REVISE THESE**
+
 presence of the composer
 
 integrity of participation to the realization of the piece
@@ -524,6 +553,8 @@ slide: =>
 hed: Qualities that shape the experience
 
 content:
+**REVISE THESE**
+
 absence of the composer
 
 integrity of participation to the realization of the piece
