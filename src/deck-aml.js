@@ -637,23 +637,15 @@ content: TO ESTABLISH ~~ARTIST~~ **MAKER** S ~~NON~~PROFESSIONAL, NONPARASITIC, 
 -------------------------------------------
 slide: =>
 
-hed: MANIFESTO FOR SECOND-PERSON JOURNALISM
+hed: MANIFESTOS FOR SECOND-PERSON JOURNALISM
 
 content:
-${SCOTT}
+<a href="/manifestos/scott">Scott's</a>
+
+<a href="/manifestos/britt">Britt's</a>
+
+<a href="/manifestos">Yours</a>
 :end
-
-notes:
-
-arrives incomplete and invites the audience to participate in its completion<br/>
-does not hold the knowledge or expertise of the "composer" over that of the "audience"<br/>
-derives its energy from the choices it offers<br/>
-inspires the audience to self-reflection and self-discovery<br/>
-directly or indirectly brings the audience into contact with other members of the audience<br/>
-may give the audience and audience of its own
-
-:end
-
 
 -------------------------------------------
 
