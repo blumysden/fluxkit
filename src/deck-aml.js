@@ -1,3 +1,5 @@
+import { SCOTT, BRITT } from './manifestos'
+
 export default `
 
 
@@ -607,13 +609,10 @@ slide: =>
 hed: MANIFESTO FOR SECOND-PERSON JOURNALISM
 
 content:
+${SCOTT}
+:end
 
-SECOND-PERSON JOURNALISM
-
-Composer, remember:<br/>
-Reader can do more than read -- your reader is a SOURCE!<br/>
-Publication is a step in a collaboration.<br/>
-
+notes:
 
 arrives incomplete and invites the audience to participate in its completion<br/>
 does not hold the knowledge or expertise of the "composer" over that of the "audience"<br/>
@@ -632,21 +631,10 @@ slide: =>
 hed: MANIFESTO FOR SECOND-PERSON JOURNALISM
 
 content:
-
-SECOND-PERSON JOURNALISM
-
-Think - You, Your, and Yours.
-champions empathy and curiousity as a "composer's" lens for production
-considers dimensionality with more senses than sight alone
-form follows function
-remembers the possibility of nonlinear temporality, especially when considering the archive
-responds to new historical contexts and "audience" usage indefinitely
-
+${BRITT}
 :end
 
 notes:
-
-
 
 :end
 

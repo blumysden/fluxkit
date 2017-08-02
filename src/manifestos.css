@@ -1,0 +1,12 @@
+.manifesto-scott p {
+  line-height: 1.6;
+}
+
+.manifesto-scott strong {
+  font-family: sans-serif;
+  font-size: 0.86em;
+}
+
+.manifesto-scott em {
+  text-decoration: underline;
+}
