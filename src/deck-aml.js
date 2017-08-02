@@ -556,6 +556,20 @@ timer: 5
 -------------------------------------------
 slide: =>
 
+img: fluxus-manifesto.jpg
+
+caption: George Maciunas, Fluxus Manifesto, 1963
+
+-------------------------------------------
+slide: =>
+
+img: cheap_art_manifesto.jpg
+
+caption: Bread & Puppet, Cheap Art Manifesto, 1984
+
+-------------------------------------------
+slide: =>
+
 hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
 
 content: TO ESTABLISH ARTIST S NONPROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, HE MUST DEMONSTRATE OWN DISPENSIBILITY, HE MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, HE MUST DEMONSTRATE THAT ANYTHING CAN SUBSTITUTE ART AND ANYONE CAN DO IT.  THEREFORE THIS SUBSTITUTE ART-AMUSEMENT MUST BE SIMPLE, AMUSING, CONCERNED WITH INSIGNIFICANCES, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.  THE ARTIST DOING ART MEANWHILE, TO JUSTIFY HIS INCOME, MUST DEMONSTRATE THAT ONLY HE CAN DO ART.  ART THEREFORE MUST APPEAR TO BE COMPLEX, INTELLECTUAL, EXCLUSIVE, INDISPENSABLE, INSPIRED.
@@ -573,10 +587,10 @@ There's one aspect of it though which particularly interests me, and clearly mot
 
 notes:
 
-We've looked at these experiences from both the point of view of composer as well as audience member. 
+We've looked at these experiences from both the point of view of composer as well as audience member.
 
-Now is the time for manifestos, where we express what we believe in, why we're doing any of this in the first place. 
-George Maciunus created many manifestos for the Fluxus movement, and here's 
+Now is the time for manifestos, where we express what we believe in, why we're doing any of this in the first place.
+George Maciunus created many manifestos for the Fluxus movement, and here's
 
 :end
 
@@ -771,7 +785,7 @@ content:
 Contact us directly, and we'll work on getting it integrated into the site for you.
 We'll include anything static, however you will be responsible for maintaining backend services.
 
-Follow us on Twitter 
+Follow us on Twitter
 <br>
 @newsNerdFluxkit
 
