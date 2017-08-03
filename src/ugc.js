@@ -4,6 +4,20 @@ import $ from 'jquery'
 //
 //TODO add a list prop
 
+const shuffle = (array) => {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+  return array;
+}
 
 class UGC extends Component {
 
@@ -17,7 +31,8 @@ class UGC extends Component {
       displayed: [],
       updater: null,
       index: 0,
-      updatedAt: null
+      updatedAt: null,
+      initialOrder: []
     }
   }
 
@@ -42,6 +57,9 @@ class UGC extends Component {
         hasChanged = responses.find((r, i) => r !== this.state.responses[i])
         if (hasChanged) {
           this.setState({ responses, updater, updatedAt: Date.parse(new Date()) })
+        }
+        if (!this.state.initialOrder.length && responses.length) {
+          this.setState({ initialOrder: shuffle([ ...Array(responses.length).keys() ])})
         }
       }
     })
@@ -104,12 +122,12 @@ class UGC extends Component {
   }
 
   render() {
-    let { responses, index } = this.state
+    let { responses, index, initialOrder } = this.state
     return (
       <div className="ugc" onClick={ this.runFlipper }>
         { !this.props.listView ?
             this.renderResponse(responses[index], index) :
-            responses.map((r, i) => this.renderResponse(r, i))
+            initialOrder.map((k, i) => this.renderResponse(responses[k], i))
         }
       </div>
     );
