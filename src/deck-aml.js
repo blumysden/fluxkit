@@ -141,7 +141,7 @@ content:
 
 Influenced by Marcel Duchamp (readymades) and John Cage (indeterminacy, happenings), among others
 
-Artists included Yoko Ono, George Maciunus, Allan Kaprow, Nam Jun Paik, Alison Knowles, George Brecht, Josephy Beuys, Ay-O, and Shigeko Kubota, among others.
+Artists included Yoko Ono, George Maciunas, Allan Kaprow, Nam Jun Paik, Alison Knowles, George Brecht, Josephy Beuys, Ay-O, and Shigeko Kubota, among others.
 
 :end
 
@@ -156,7 +156,7 @@ They gave performances and organized participatory events called happenings. The
 Fluxus was influenced by Marcel Duchamp's readymades, which are ordinary manufactured objects repositioned by the artist as found art,
 as well as John Cage's compositions in which some aspects of a musical work are left open to chance or to the interpreter's free choice.
 
-One of them, a Lithuanian artist named George Maciunus, considered this stream of work and energy to be a movement and he called it Fluxus.
+One of them, a Lithuanian artist named George Maciunas, considered this stream of work and energy to be a movement and he called it Fluxus.
 
 Pronounced George Ma-**choo**-nus
 
@@ -475,18 +475,16 @@ vid: pTGSsWVK2Eo
 -------------------------------------------
 slide: =>
 
-hed: Qualities that shape the experience
+hed: The variables
 
 content:
-**REVISE THESE**
+\First performance: July 20, 1964 at Yamaichi Concert Hall, Kyoto, Japan
 
-presence of the composer
+Ono was present and central to the experience
 
-integrity of participation to the realization of the piece
+Audience participation was essential
 
-locus of participation is here and now
-
-challenge/risk
+\High stakes: challenge, risk to all involved
 
 :end
 
@@ -550,18 +548,17 @@ The artist's intent, by including things such as nails, which can potentially pr
 -------------------------------------------
 slide: =>
 
-hed: Qualities that shape the experience
+hed: The variables
 
 content:
-**REVISE THESE**
 
-absence of the composer
+Originating artist is reduced to a brand.  (Maciunas actually designed the exterior of the boxes.)
 
-integrity of participation to the realization of the piece
+"When" is ongoing, but the independent physical presence of the art object is required for the experience.
 
-temporal locus of participation is in the present of the object
+Something essential is missing if no one sticks a finger in the hole.
 
-physical field of experience is an independent object (or other thing)
+Risk is slight, but shapes the gesture and the experience.
 
 :end
 
@@ -581,7 +578,6 @@ hed: Exercise: Contrived Experiences
 
 content: Small group discussion about what contrived experiences YOU seek out and what you find rewarding, enticing, exciting about them.
 <br/><a href="https://goo.gl/forms/R3ihlgtnaI5r6MQz1" target="_blank">https://tinyurl.com/fluxkit2017</a>
-
 
 timer: 5
 
@@ -609,9 +605,9 @@ content: TO ESTABLISH ARTIST S NONPROFESSIONAL, NONPARASITIC, NONELITE STATUS IN
 
 notes:
 
-This is part of one of Maciunus's manifestos for Fluxus. (He created several.)
+This is part of one of Maciunas's manifestos for Fluxus. (He created several.)
 
-Maciunus had a particularly grandiose, socialist-tinged, agenda for the work of these artists.
+Maciunas had a particularly grandiose, socialist-tinged, agenda for the work of these artists.
 Over time, he either drove out or alienated many of them.  In any case, few who stayed in the fold seemed to have fully embraced his positions and aspirations.
 
 There's one aspect of it though which particularly interests me, and clearly motivated many of the Fluxus artists:
@@ -623,7 +619,7 @@ notes:
 We've looked at these experiences from both the point of view of composer as well as audience member.
 
 Now is the time for manifestos, where we express what we believe in, why we're doing any of this in the first place.
-George Maciunus created many manifestos for the Fluxus movement, and here's
+George Maciunas created many manifestos for the Fluxus movement, and here's
 
 :end
 
@@ -802,6 +798,11 @@ Follow us on Twitter
 
 :end
 
+[]
+
+========================
+
+[unused]
 
 -------------------------------------------
 
@@ -871,8 +872,6 @@ content:
 In your small groups, share examples of some work that inspires you.
 
 :end
-
-
 
 -------------------------------------------
 []
