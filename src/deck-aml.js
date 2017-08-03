@@ -102,20 +102,14 @@ slide: =>
 hed: Enemies
 
 content:
-Expertise
 
-Authority
+Can we overcome or disregard these barriers (authority, expense, prejudice, fear) and builds our readers arenas in which to have experiences, make choices, take actions, and learn about themselves.
 
-Expense
-
-Fear
 :end
 
 notes:
 
-Now, Fluxus didn't defeat these enemies.  One could argue they failed pretty grandly.
-
-I don't honestly imagine I can overcome them either.  But I believe, collectively, we can begin to gnaw away at these obstacles if we want to, and I think Fluxus' example is a good one to consider.
+I don't honestly imagine I can overcome them.  But I believe, collectively, we can begin to gnaw away at these obstacles if we want to, and I think Fluxus' example is a good one to consider.
 
 :end
 
