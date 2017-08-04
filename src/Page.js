@@ -20,6 +20,15 @@ class Page extends Component {
           { children }
         </div>
         { (isHome) ? <FluxCube w={400} h={300}/> : <FluxCube w={100} h={66}/> }
+        { (!isHome) ? null :
+          <nav className="navigation">
+            <a href="/deck/1">Presentation</a>
+            <a href="/manifestos">Manifestos</a>
+            <a href="/instructions">Instructions</a>
+            <a href="/homeworks">Home Works</a>
+            <a href="/experiences">Experiences</a>
+          </nav>
+        }
       </div>
     );
   }

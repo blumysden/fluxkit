@@ -7,6 +7,23 @@ html { font-size: 62.5%; }
   position: relative;
 }
 
+.page:not(.homepage) .cube-link {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: 100000;
+}
+
+.page nav {
+  font-size: 2.6rem;
+}
+
+.page nav a {
+  display: block;
+  margin: 0 10px 5px 0;
+  color: #000;
+}
+
 .main-title {
   transform: rotate(90deg);
   transform-origin: -54px 13px;

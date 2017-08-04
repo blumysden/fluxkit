@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-.deck svg {
+.deck .cube-link {
   position: absolute;
   top: 10px;
   left: 10px;

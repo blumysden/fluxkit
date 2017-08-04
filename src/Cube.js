@@ -132,7 +132,7 @@ class FluxCube extends Component {
 
   render () {
     let { h, w } = this.props
-    return <a href="/"><svg viewBox={ `0 0 ${w} ${h}` } width={ w } height={ h }/></a>
+    return <a href="/" className="cube-link"><svg viewBox={ `0 0 ${w} ${h}` } width={ w } height={ h }/></a>
   }
 }
 
