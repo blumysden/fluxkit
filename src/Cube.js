@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 // import './Cube.css'
 
+
+// from https://codepen.io/MRokas/pen/aNBjdQ
 // (function() {
 // 	'use strict';
 	class Point2 {
