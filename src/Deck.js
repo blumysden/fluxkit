@@ -7,6 +7,7 @@ import archieml from 'archieml'
 import marked from 'marked'
 import deckContent from './deck-aml'
 import UGC from './ugc'
+import FluxCube from './Cube'
 
 const SLIDES = archieml.load(deckContent).slides
 
@@ -146,6 +147,7 @@ class Deck extends Component {
             </div>
             : null }
         </div>
+        <FluxCube h={66} w={100} />
       </div>
     );
   }

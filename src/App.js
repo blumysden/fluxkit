@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" render={ () => <Page/> }/>
+          <Route exact path="/" render={ () => <Page className="homepage" isHome={ true }/> }/>
           <Route exact path="/homeworks" render={ () => <Activity title="Home Works" sheetCol={1} slide={17} />}/>
           <Route exact path="/experiences" render={ () => <Activity title="Experiences" sheetCol={2} slide={36} />}/>
           <Route exact path="/manifestos" render={ () => <Activity title="Manifestos" slide={38} sheetCol={3} />}/>
