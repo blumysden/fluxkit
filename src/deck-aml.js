@@ -169,6 +169,8 @@ They were radical and experimental in their practice, pushing against the Art Wo
 Working in both object-based and time-based modes, they made paintings, sculptures, and books. They composed and wrote.
 They gave performances and organized participatory events called happenings. The created immersive environments.
 
+JOKES!  THEY MADE JOKES!
+
 Fluxus was influenced by Marcel Duchamp's readymades, which are ordinary manufactured objects repositioned by the artist as found art,
 as well as John Cage's compositions in which some aspects of a musical work are left open to chance or to the interpreter's free choice.
 
@@ -213,6 +215,12 @@ slide: =>
 hed: Piano Activities (2012)
 
 vid: ThIexgXllyo
+
+notes:
+
+Start around 2:15
+
+:end
 
 -------------------------------------------
 slide: =>
@@ -270,7 +278,6 @@ slide: =>
 
 hed: Our Workbook
 
-
 content: <a href="https://goo.gl/forms/R3ihlgtnaI5r6MQz1" target="_blank">https://tinyurl.com/fluxkit2017</a>
 
 -------------------------------------------
@@ -310,6 +317,8 @@ hed: Write instructions for anyone to have your favorite home experience in thei
 ugc: 1
 
 notes:
+
+TAKE 3 MINUTES OR SO FOR OBSERVATIONS FROM THE ROOM.
 
 I think of this exercise as a model for the work of making second person journalism.
 
