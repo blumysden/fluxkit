@@ -36,7 +36,15 @@ slide: =>
 
 hed: What is this all about?
 
-content: "inspiration and provocations for people who make interactives"
+content:
+
+"inspiration and provocations for people who make interactives"
+
+<a href="http://fluxkit.site/deck/1">Presentation</a>
+
+<a href="https://etherpad.opennews.org/p/SRCCON2017-new-snerd-fluxkit">Etherpad</a>
+
+:end
 
 notes:
 
@@ -351,9 +359,9 @@ notes:
 
 Locus - location
 Composer - what's the effect of the artist's presence? how does it shape the impact of the piece itself?
-Artifact - is objecthood important? is the artifact static or does it continue to change? 
-Participation - how central is the audience, actually? 
-Stakes - are they low, high, somewhere in between? 
+Artifact - is objecthood important? is the artifact static or does it continue to change?
+Participation - how central is the audience, actually?
+Stakes - are they low, high, somewhere in between?
 
 :end
 
@@ -592,7 +600,8 @@ slide: =>
 hed: Exercise: Contrived Experiences
 
 content: Small group discussion about what contrived experiences YOU seek out and what you find rewarding, enticing, exciting about them.
-<br/><a href="https://goo.gl/forms/R3ihlgtnaI5r6MQz1" target="_blank">https://tinyurl.com/fluxkit2017</a>
+<br/><a href="https://goo.gl/forms/R3ihlgtnaI5r6MQz1" target="_blank">https://tinyurl.com/fluxkit2017</a><br/>
+Exercise #2
 
 timer: 5
 
@@ -661,13 +670,12 @@ content:
 
 slide: =>
 
-hed: MANIFESTO FOR SECOND-PERSON JOURNALISM
+hed: Exercise: Create Your Manifesto
 
 content:
-${BRITT}
-:end
 
-notes:
+<a href="https://goo.gl/forms/R3ihlgtnaI5r6MQz1" target="_blank">https://tinyurl.com/fluxkit2017</a><br/>
+Exercise #3
 
 :end
 
@@ -677,14 +685,9 @@ slide: =>
 
 hed: Exercise: Create Your Manifesto
 
-content:
+ugc: 3
 
-
-
-:end
-
-timer: 10
-
+timer: 7
 
 -------------------------------------------
 slide: =>
@@ -780,11 +783,13 @@ content:
 Write an instruction for your colleagues and peers to
 create a piece of second-person journalism.
 
-<br>
-Submit online
 
-<br>
-Fill out one card.
+<a href="https://goo.gl/forms/R3ihlgtnaI5r6MQz1" target="_blank">https://tinyurl.com/fluxkit2017</a><br/>
+Exercise #3
+
+Also write out the instruction on one of the cards provided and leave it on the table which we will designate.
+
+If you have written an instruction, you may go and choose an instruction from the table to execute.
 
 :end
 
