@@ -347,6 +347,16 @@ content:
 * Stakes
 :end
 
+notes:
+
+Locus - location
+Composer - what's the effect of the artist's presence? how does it shape the impact of the piece itself?
+Artifact - is objecthood important? is the artifact static or does it continue to change? 
+Participation - how central is the audience, actually? 
+Stakes - are they low, high, somewhere in between? 
+
+:end
+
 
 -------------------------------------------
 slide: =>
@@ -585,6 +595,12 @@ content: Small group discussion about what contrived experiences YOU seek out an
 <br/><a href="https://goo.gl/forms/R3ihlgtnaI5r6MQz1" target="_blank">https://tinyurl.com/fluxkit2017</a>
 
 timer: 5
+
+notes:
+
+One scribe will submit for the group on the form, to record the salient thoughts
+
+:end
 
 
 -------------------------------------------
