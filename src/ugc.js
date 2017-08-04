@@ -81,7 +81,7 @@ class UGC extends Component {
     }
     index = displayed.splice(Math.floor(Math.random() * displayed.length), 1)[0]
     this.setState({ index, displayed })
-    this.flipTimer = window.setTimeout(() => { this.runFlipper() }, 20000)
+    this.flipTimer = window.setTimeout(() => { this.runFlipper() }, 12000)
   }
 
   componentDidMount() {

@@ -597,11 +597,16 @@ It is designed to be interacted with in one way, but there are other possibiliti
 -------------------------------------------
 slide: =>
 
-hed: Exercise: Contrived Experiences
+hed: Exercise: Contrived Participatory Experiences
 
-content: Small group discussion about what contrived experiences YOU seek out and what you find rewarding, enticing, exciting about them.
-<br/><a href="https://goo.gl/forms/R3ihlgtnaI5r6MQz1" target="_blank">https://tinyurl.com/fluxkit2017</a><br/>
+content:
+
+Small group discussion about what contrived participatory experiences YOU seek out and what you find rewarding, enticing, exciting about them.
+
+<a href="https://goo.gl/forms/R3ihlgtnaI5r6MQz1" target="_blank">https://tinyurl.com/fluxkit2017</a><br/>
 Exercise #2
+
+:end
 
 timer: 5
 
@@ -611,6 +616,13 @@ One scribe will submit for the group on the form, to record the salient thoughts
 
 :end
 
+
+-------------------------------------------
+slide: =>
+
+hed: Exercise: Contrived Participatory Experiences
+
+ugc: 2
 
 -------------------------------------------
 slide: =>
