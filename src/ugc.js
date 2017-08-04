@@ -58,9 +58,9 @@ class UGC extends Component {
         if (hasChanged) {
           this.setState({ responses, updater, updatedAt: Date.parse(new Date()) })
         }
-        if (!this.state.initialOrder.length && responses.length) {
-          this.setState({ initialOrder: shuffle([ ...Array(responses.length).keys() ])})
-        }
+        // if (!this.state.initialOrder.length && responses.length) {
+        //   this.setState({ initialOrder: shuffle([ ...Array(responses.length).keys() ])})
+        // }
       }
     })
   }
@@ -115,8 +115,8 @@ class UGC extends Component {
     if (Math.round(Math.random()) === 0) {
       indent = indent * -1
     }
-    return <div>
-      <p className="special" key={ `p${i}`} style={ { transform: `rotate(${rotation}deg)`, marginLeft: `${indent}px` } }><span>{text}</span></p>
+    return <div key={ `p${i}`}>
+      <p className="special" style={ { transform: `rotate(${rotation}deg)`, marginLeft: `${indent}px` } }><span>{text}</span></p>
       { this.props.listView ? <div className="divider"/> : null }
     </div>
   }
@@ -127,7 +127,7 @@ class UGC extends Component {
       <div className="ugc" onClick={ this.runFlipper }>
         { !this.props.listView ?
             this.renderResponse(responses[index], index) :
-            initialOrder.map((k, i) => this.renderResponse(responses[k], i))
+            responses.map((r, i) => this.renderResponse(r, i))
         }
       </div>
     );

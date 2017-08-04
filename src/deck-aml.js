@@ -42,6 +42,12 @@ notes:
 
 We're not here today to talk about best-practices or learn anything very concrete.  We're here for collective inspiration.
 
+All this, the deck and the thing we are going to build, are at http://fluxkit.site.
+
+We will be asking you to contribute to the site throughout the session.  Pull out laptops if you have them.  If you don't you can work on paper, and either grab someone's laptop to contribute when they are done, or do it later.  We'll leave the form open for a little bit after the session.
+
+We are not asking for any identifying information from you.  This is on the honor system.  So please be appropriately serious and respectful with your contributions. If you don't want your stuff published, you don't need to submit.
+
 :end
 
 -------------------------------------------
@@ -56,11 +62,8 @@ content:
 - Instruct each other on how to compose an experience for news audiences
 - Use this workshop and resulting Fluxkit of manifestos and instructions to catalyze a collective
 
-
 :end
 
-
->>>>>>> Stashed changes
 -------------------------------------------
 slide: =>
 
@@ -92,24 +95,43 @@ I believe there's a cost to this\:
 * Consolidation of power and authority in the hands of those who have the technical ability to deliver on new ideas.  Marginalization of those without, often despite their widsom, experience and institutional knowledge.
 * Narrower, less transformative experiences for our readers.
 
-Put in terms the Fluxus artits might have used, I think we have a few enemies to overcome:
-
 :end
 
 -------------------------------------------
 slide: =>
 
-hed: Enemies
+hed: My Question
 
 content:
 
-Can we overcome or disregard these barriers (authority, expense, prejudice, fear) and builds our readers arenas in which to have experiences, make choices, take actions, and learn about themselves.
+Can we overcome or disregard these barriers (authority, expense, prejudice, fear) and build our readers arenas in which to have experiences, make choices, take actions, and learn about themselves.
 
 :end
 
 notes:
 
 I don't honestly imagine I can overcome them.  But I believe, collectively, we can begin to gnaw away at these obstacles if we want to, and I think Fluxus' example is a good one to consider.
+
+:end
+
+-------------------------------------------
+slide: =>
+
+hed: Audience > Artist
+
+content:
+
+~~Interactive Journalism~~<br/>
+Participatory Journalism<br/>
+**Second-Person Journalism**
+
+:end
+
+notes:
+
+By de-emphasizing expertise, technique, the mystique of the artist, the works were simple, absurd, inexpensive.
+
+The artists and audiences were in cahoots.
 
 :end
 
@@ -199,26 +221,6 @@ img: cut-piece.jpg
 
 caption: Yoko Ono, Cut Piece (1964)
 
--------------------------------------------
-slide: =>
-
-hed: Audience > Artist
-
-content:
-
-~~Interactive Journalism~~<br/>
-Participatory Journalism<br/>
-**Second-Person Journalism**
-
-:end
-
-notes:
-
-By de-emphasizing expertise, technique, the mystique of the artist, the works were simple, absurd, inexpensive.
-
-The artists and audiences were in cahoots.
-
-:end
 
 -------------------------------------------
 slide: =>
@@ -620,13 +622,6 @@ George Maciunas created many manifestos for the Fluxus movement, and here's
 -------------------------------------------
 slide: =>
 
-hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
-
-content: TO ESTABLISH ~~ARTIST~~ **MAKER** S ~~NON~~PROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, ~~HE~~ **SHE/HE** MUST DEMONSTRATE OWN DISPENSIBILITY, ~~HE~~ **THEY** MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, ~~HE~~ **WE** MUST DEMONSTRATE THAT <span class=“blank”>ANYTHING CAN SUBSTITUTE ART</span> AND ANYONE CAN DO IT.  THEREFORE THIS <span class=“blank”>SUBSTITUTE ART-AMUSEMENT</span> MUST BE *(seem? feel?)* SIMPLE, AMUSING, ~~CONCERNED WITH INSIGNIFICANCES~~ *(no way!!!)*, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.
-
--------------------------------------------
-slide: =>
-
 hed: MANIFESTOS FOR SECOND-PERSON JOURNALISM
 
 content:
@@ -866,6 +861,13 @@ content:
 In your small groups, share examples of some work that inspires you.
 
 :end
+
+-------------------------------------------
+slide: =>
+
+hed: FLUXMANIFESTO ON FLUXAMUSEMENT - VAUDVEILLE - ART?
+
+content: TO ESTABLISH ~~ARTIST~~ **MAKER** S ~~NON~~PROFESSIONAL, NONPARASITIC, NONELITE STATUS IN SOCIETY, ~~HE~~ **SHE/HE** MUST DEMONSTRATE OWN DISPENSIBILITY, ~~HE~~ **THEY** MUST DEMONSTRATE SELFSUFFICIENCY OF THE AUDIENCE, ~~HE~~ **WE** MUST DEMONSTRATE THAT <span class=“blank”>ANYTHING CAN SUBSTITUTE ART</span> AND ANYONE CAN DO IT.  THEREFORE THIS <span class=“blank”>SUBSTITUTE ART-AMUSEMENT</span> MUST BE *(seem? feel?)* SIMPLE, AMUSING, ~~CONCERNED WITH INSIGNIFICANCES~~ *(no way!!!)*, HAVE NO COMMODITY OR INSTITUTIONAL VALUE.  IT MUST BE UNLIMITED, OBTAINABLE BY ALL, AND EVENTUALLY PRODUCED BY ALL.
 
 -------------------------------------------
 []
