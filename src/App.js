@@ -33,11 +33,13 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" component={Activity}/>
-          <Route exact path="/manifestos" render={ () => <Activity title="Manifestos" sheetCol={1} />}/>
+          <Route exact path="/" render={ () => <Page/> }/>
+          <Route exact path="/homeworks" render={ () => <Activity title="Home Works" sheetCol={1} slide={17} />}/>
+          <Route exact path="/experiences" render={ () => <Activity title="Experiences" sheetCol={2} slide={36} />}/>
+          <Route exact path="/manifestos" render={ () => <Activity title="Manifestos" slide={38} sheetCol={3} />}/>
           <Route exact path="/manifestos/scott" render={ () => <Page title="Manifesto for Second-Person Journalism"><Markdown className="manifesto-scott" content={ SCOTT }/></Page> }/>
           <Route exact path="/manifestos/britt" render={ () => <Page title="Manifesto for Second-Person Journalism"><Markdown className="manifesto-britt" content={ BRITT }/></Page> }/>
-          <Route exact path="/homeworks" render={ () => <Activity title="Home Works" sheetCol={1} />}/>
+          <Route exact path="/instructions" render={ () => <Activity title="Instructions" slide={17} sheetCol={4} />}/>
           <Route exact path="/deck" component={Deck}/>
           <Route exact path="/deck/notes" component={DeckNotes}/>
           <Route exact path="/deck/:slide" component={Deck}/>

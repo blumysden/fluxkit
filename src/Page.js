@@ -4,12 +4,13 @@ import './Page.css';
 
 class Page extends Component {
   render() {
-    let { title, children } = this.props
+    let { title, slide, children } = this.props,
+        titleEl = (slide) ? <a href={ `/deck/${slide} `}>{ title }</a> : <span>{title}</span>
     return (
       <div className="page">
         <h2 className="main-title">new sNerdFluxKit (2017)</h2>
         { title ?
-            <h3 className="page-title">{ title }</h3> :
+            <h3 className="page-title">{ titleEl }</h3> :
             null
         }
         <div className="main-page-content">
@@ -21,7 +22,8 @@ class Page extends Component {
 }
 
 Page.propTypes = {
-  title: PropTypes.string
+  title: PropTypes.string,
+  slide: PropTypes.number
 }
 
 export default Page;

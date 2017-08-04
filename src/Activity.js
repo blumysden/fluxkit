@@ -6,9 +6,9 @@ import './Activity.css';
 
 class Activity extends Component {
   render() {
-    let { title, sheetCol } = this.props
+    let { title, slide, sheetCol } = this.props
     return (
-      <Page title={ title }>
+      <Page title={ title } slide={ slide }>
         { sheetCol ?
             <UGC sheetCol={ sheetCol } listView={ true }/> :
             null
@@ -20,7 +20,8 @@ class Activity extends Component {
 
 Activity.propTypes = {
   sheetCol: PropTypes.number,
-  title: PropTypes.string
+  title: PropTypes.string,
+  slide: PropTypes.number
 }
 
 export default Activity;
