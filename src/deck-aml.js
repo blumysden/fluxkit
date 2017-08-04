@@ -810,6 +810,12 @@ This is an opportunity for you to express what you *really* want to see someone 
 
 Leave it open ended enough so that the audience can interepreret freely.
 
+
+What seemed radical here was that they presented these instructions as art 
+Instructions, while they express something about the initiator pass attention from the initiator to the doer.  
+By embracing the idea that the viewer brings something unique and essential to the interaction,
+what results is a collaboration between the two parties.
+
 :end
 
 
